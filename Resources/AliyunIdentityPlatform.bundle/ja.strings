@@ -1,0 +1,181 @@
+/* 
+  Localizable.strings
+  AliyunIdentityFace
+
+  Created by Lingxuan on 2022/12/1.
+  Copyright © 2022 aliyun.com. All rights reserved.
+*/
+
+// 刷脸提示文案
+"identity_aliyun_face_comm_tips_text" = "スマートフォンを持ち、まばたきをしてください";
+"identity_aliyun_no_face" = "顔が検出されません";
+"identity_aliyun_no_face2" = "顔が検出されません、カメラに顔を向けてください";
+"identity_aliyun_blink_openness" = "まばたきをしてください";
+"identity_aliyun_distance_too_far" = "ゆっくりと近づいてください";
+"identity_aliyun_distance_too_close" = "ゆっくりと離れてください";
+"identity_aliyun_move_circle" = "顔をフレーム内に移動してください";
+"identity_aliyun_bad_pitch" = "スマートフォンに正対してください";
+"identity_aliyun_is_moving" = "もう少し静止してください";
+"identity_aliyun_bad_brightness" = "顔を明るくしてください";
+"identity_aliyun_move_circle2" = "正面を完全に見せてください";
+"identity_aliyun_watch_the_screen" = "画面を見つめてください";
+"identity_aliyun_stack_time" = "動かないでください";
+"identity_aliyun_is_occ" = "顔全体がはっきりと見えるように、何も覆わないでください";
+
+"identity_aliyun_open_mouth" = "口を開けてください";
+"identity_left_yaw_guide" = "頭を左に振ってください";
+"identity_right_yaw_guide" = "頭を右に振ってください";
+// 展示文案
+"identity_aliyun_zface_processing" = "処理中";
+"identity_processing" = "処理中";
+"identity_aliyun_idcard_face" = "身分証明書の顔写真がある面をフレーム内に入れてください";
+"identity_aliyun_idcard_back" = "身分証明書の裏面をフレーム内に入れてください";
+"identity_ocr_result_btn_txt" = "確認";
+"identity_aliyun_submit" = "提出";
+"identity_aliyun_submit_back" = "提出";  // 不变
+"identity_ocr_alert_title_photo_identity_text_watermark" = "業務用にのみ使用";
+"identity_ocr_result_top_tips" = "必要に応じて、情報をタップして修正してください";
+"identity_ocr_result_latin_tips" = "ローマ字表記の氏名をご確認ください";
+"identity_ocr_mask_idcard_front_scan_passport_tips" = "パスポートの写真を撮影してください";
+"identity_ocr_photo" = "アルバム";
+"identity_ocr_scan" = "スキャン";
+"identity_ocr_take" = "撮影";
+"identity_aliyun_ekycpro_card" = "身分証明書の写真を撮影してください";
+"identity_aliyun_ekycpro_card_submit" = "身分証明書の写真を提出";
+"identity_aliyun_idcard_image_tip" = "画像が小さすぎます。もう少し近づいてください。";
+"identity_aliyun_idcard_angle_tip" = "証明書の傾きが大きすぎます。";
+
+// alert 文案
+"identity_ocr_alert_title_photo_identity_fail" = "認証に失敗しました";
+"identity_ocr_alert_title_scan_single_timeout" = "スキャンがタイムアウトしました";
+"identity_aliyun_failures_limit" = "失敗回数が上限に達しました";
+"identity_ocr_photo_fail_id_type_error" = "身分証明書が検出されません";
+"identity_aliyun_wrong_doc_type" = "ご使用の身分証明書の種類が要件を満たしていることを確認してください";
+"identity_aliyun_no_internet_connection" = "ネットワーク接続が切断されました";
+//"The scan is more likely to succeed if you directly face your mobile phone" = "電話の方を向くと、スキャンが成功する可能性が高くなります";
+"identity_ocr_alert_scan_message_timeout" = "身分証明書がはっきりと全体が見え、遮蔽物や反射がないことを確認してください";
+"Check network connectivity" = "ネットワーク接続を確認してください";
+"identity_ocr_result_title" = "識別結果";
+"identity_message_box_title_network" = "ネットワークエラー";
+"identity_ocr_alert_net_message_error" = "ネットワークエラーです もう一度お試しください";
+"identity_aliyun_try_again_more_times" = "リトライ回数が多すぎます しばらくしてからもう一度お試しください";
+"identity_ocr_alert_retry_text" = "リトライ";
+"identity_aliyun_interrupted" = "操作が中断されました";
+"identity_message_box_message_verify" = "スマートフォンに正対すると、成功しやすくなります";
+"identity_message_box_btn_retry_ok" = "もう一度試す";
+"identity_aliyun_no_camera_permission" = "カメラの権限が許可されていません";
+"identity_aliyun_get_camera_permission" = "「設定」→「プライバシー」→「カメラ」でカメラへのアクセスを許可してください";
+"identity_message_box_btn_exit" = "終了";
+"identity_message_box_title_exit_tip" = "終了してもよろしいですか";
+"identity_message_box_message_exit_tip" = "顔を見せるだけです";
+"identity_message_box_btn_cancel_tip" = "キャンセル";
+"identity_message_box_btn_confirm" = "確認";
+"identity_message_box_message_operation_fail" = "今回の操作は失敗しました";
+"identity_message_box_message_retry_face_scan_time_out" = "顔認証の試行回数が多すぎます しばらくしてからもう一度お試しください";
+"identity_message_box_btn_i_know" = "わかりました";
+"identity_message_box_title_operation_time_out" = "操作がタイムアウトしました";
+"identity_tip_permission_storage" = "写真アルバムの権限がありません";
+"identity_aliyun_get_photo_permission" = "「設定」→「プライバシー」→「写真」でアクセスを有効にしてください";
+// OCR编辑页面
+"identity_ocr_result_info_net_input_empty" = "を確認してください";
+"identity_ocr_result_info_net_input_empty1" = "が空でないこと";
+"identity_ocr_result_info_net_form_error" = "正しい";
+"identity_ocr_result_info_edit_continue_tips" = "編集を続行しますか";
+// 香港身份证提示信息
+"identity_ocr_result_id_hong_kong_hint_sex" = "F/M";
+"identity_ocr_result_id_hong_kong_hint_isPermanent" = "Y/N";
+"identity_ocr_result_id_hong_kong_hint_currentIssueDate" = "dd-mm-yyyy";
+"identity_ocr_result_id_hong_kong_hint_idNumber" = "e.g. C123456(0)";
+"identity_ocr_result_id_hong_kong_hint_firstIssueDate" = "(MM-YY)";
+"identity_ocr_result_id_hong_kong_hint_symbols" = "e.g. ***AZ";
+"identity_ocr_result_id_hong_kong_hint_nameCode" = "Commercial Code (if any)";
+"identity_ocr_result_id_hong_kong_hint_name" = "Chinese name (if any)";
+"identity_ocr_result_id_hong_kong_hint_englishName" = "English name";
+// 港澳通行证提示信息
+"identity_ocr_result_id_hong_kong_go_hint_issueDate" = "yyyy-mm-dd";
+"identity_ocr_result_id_hong_kong_go_hint_idNumber" = "e.g. CC1234567";
+"Name in Chinese" = "Name in Chinese";
+"identity_ocr_result_id_hong_kong_go_hint_name" = "Name (pinyin)";
+"identity_ocr_result_id_hong_kong_go_hint_placeOfIssue" = "e.g.北京";
+"identity_ocr_result_id_hong_kong_go_hint_originOfIssue" = "中华人民共和国出入境管理局";
+// 回乡证
+"identity_ocr_result_id_hong_kong_return_hint_idNumber" = "e.g. H12345678";
+"identity_ocr_result_id_hong_kong_return_hint_englishName" = "Name in English";
+// 台胞证
+"identity_ocr_result_id_taiwan_hint_idNumber" = "e.g. 12345678";
+// 澳门身份证
+"identity_ocr_result_id_macao_hint_idNumber" = "e.g. 1234567(8)";
+"identity_ocr_result_id_macao_hint_surnameCN" = "Chinese surname";
+"identity_ocr_result_id_macao_givernamecn" = "Chinese given name";
+"identity_ocr_result_id_macao_surname" = "Family name";
+"identity_ocr_result_id_macao_givername" = "First name(s)";
+"identity_ocr_result_id_macao_hint_placeOfBirth" = "e.g. AS";
+// 全球护照
+"identity_ocr_result_id_passport_hint_countryCode" = "e.g. CHN";
+"identity_ocr_result_id_passport_hint_surname" = "First name";
+"identity_ocr_result_id_passport_hint_givenname" = "Last name";
+"identity_ocr_result_id_passport_hint_passportNo" = "please input passport No.";
+// 大陆身份证
+"identity_ocr_result_id_mainland_name" = "Name";
+"identity_ocr_result_id_mainland_ethnicity" = "Ethnicity";
+"identity_ocr_result_id_mainland_address" = "Address";
+"identity_ocr_result_id_mainland_idNumber" = "身份证号";
+//卡证文案
+"identity_ocr_result_id_name" = "Chinese Name";
+"identity_ocr_result_id_englishName" = "English Name";
+"identity_ocr_result_id_sex" = "Sex";
+"identity_ocr_result_id_birthDate" = "Date of Birth";
+"identity_ocr_result_id_idNumber" = "ID Number";
+"identity_ocr_result_id_nameCode" = "Name Code";
+"identity_ocr_result_id_currentIssueDate" = "Date of Issue";
+"identity_ocr_result_id_firstIssueDate" = "Date of First Issue";
+"identity_ocr_result_id_isPermanent" = "Permanent";
+"identity_ocr_result_id_symbols" = "Symbols";
+"identity_ocr_result_id_issueDate" = "Date of Issue";
+"identity_ocr_result_id_expiryDate" = "Date of Expiry";
+"identity_ocr_result_id_originOfIssue" = "Origin of Issue";
+"identity_ocr_result_id_passport_surname" = "Surname";
+"identity_ocr_result_id_passport_givenname" = "Given name";
+"identity_ocr_result_id_surnameCN" = "Surname CN";
+"identity_ocr_result_id_givennameCN" = "Given name CN";
+"identity_ocr_result_id_surname" = "Surname";
+"identity_ocr_result_id_givenname" = "Given name";
+"identity_ocr_result_id_passportNo" = "Passport Number";
+"identity_ocr_result_id_nationality" = "Nationality";
+"identity_ocr_result_id_countryCode" = "Country Code";
+"identity_ocr_result_id_placeOfIssue" = "Place of Issue";
+"identity_ocr_result_id_placeOfBirth" = "Place of Birth";
+//引导页
+"identity_guide_ocr_photo_title" = "身分証明書の写真を撮影";
+"identity_guide_ocr_scan_title" = "身分証明書をスキャン";
+"identity_guide_ocr_nfc_title" = "NFCで安全に読み取り";
+"identity_guide_ocr_photo_msg" = "身分証明書を無地の背景に平らに置き、証明書全体を撮影してください 四隅が隠れないようにしてください";
+"identity_guide_ocr_scan_msg" = "身分証明書を無地の背景に平らに置き、補助線内に配置してください 十分な光量があると、自動的に文字をキャプチャします";
+"identity_guide_ocr_nfc_msg" = "スマートフォンの背面を証明書に1～3cm平行に近づけ、暗号化されたチップのデータを自動的に読み取ります インジケーターライトが点灯したら、振動を感じるまで動かさないでください";
+"identity_guide_start_btn" = "今すぐ開始";
+"identity_guide_authorization" = "I agree to the CA terms and conditions and believe that my personal data will be used accurately for Alibaba Cloud partner VIDA.<User T&C>";
+
+//NFC
+"identity_nfc_guide_title" = "NFCで安全に読み取り";
+"identity_nfc_guide_content" = "スマートフォンの背面を証明書に1～3cm平行に近づけ、暗号化されたチップのデータを自動的に認識し、検証します";
+"identity_nfc_begin_read" = "認証開始";
+"identity_nfc_read_fail" = "認証に失敗しました パスポート情報を確認してください";
+"identity_nfc_sure" = "はい";
+"identity_nfc_cancel" = "キャンセル";
+"identity_nfc_done" = "完了";
+"identity_nfc_card_no" = "証明書番号";
+"identity_nfc_birthday" = "生年月日";
+"identity_nfc_validity" = "有効期限";
+"identity_nfc_card_no_placeholder" = "証明書番号を入力してください";
+"identity_nfc_birthday_placeholder" = "生年月日を入力してください";
+"identity_nfc_validity_placeholder" = "有効期限を入力してください";
+"identity_nfc_read_title" = "情報認識";
+"identity_nfc_next_step" = "次へ";
+"identity_nfc_passport_placeholder" = "パスポート情報を入力してください";
+"identity_nfc_date_tips" = "日付の形式が正しくありません dd MM yyyy形式を使用してください";
+"identity_nfc_check_date_tips" = "有効期限は生年月日より後でなければなりません";
+"identity_nfc_sure2" = "確認";
+"identity_nfc_year" = "年";
+"identity_nfc_month" = "月";
+"identity_nfc_day" = "日";
+

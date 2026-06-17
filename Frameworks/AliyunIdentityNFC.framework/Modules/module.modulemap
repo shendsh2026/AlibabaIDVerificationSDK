@@ -1,0 +1,11 @@
+framework module AliyunIdentityNFC {
+  umbrella header "AliyunIdentityNFC.h"
+  export *
+
+  module * { export * }
+}
+
+module AliyunIdentityNFC.Swift {
+  header "AliyunIdentityNFC-Swift.h"
+  requires objc
+}

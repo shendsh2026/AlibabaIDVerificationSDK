@@ -1,0 +1,178 @@
+/*
+  Localizable.strings
+  AliyunIdentityFace
+
+  Created by Lingxuan on 2022/12/1.
+  Copyright © 2022 aliyun.com. All rights reserved.
+*/
+
+// Подсказки при сканировании лица
+"identity_aliyun_face_comm_tips_text" = "Возьмите телефон и моргните";
+"identity_aliyun_no_face" = "Лицо не обнаружено";
+"identity_aliyun_no_face2" = "Лицо не обнаружено, смотрите прямо в телефон";
+"identity_aliyun_blink_openness" = "Моргните";
+"identity_aliyun_distance_too_far" = "Приблизьтесь медленно";
+"identity_aliyun_distance_too_close" = "Отдалитесь медленно";
+"identity_aliyun_move_circle" = "Поместите лицо в рамку";
+"identity_aliyun_bad_pitch" = "Смотрите прямо в телефон";
+"identity_aliyun_is_moving" = "Сделайте изображение четче";
+"identity_aliyun_bad_brightness" = "Сделайте лицо светлее";
+"identity_aliyun_move_circle2" = "Покажите все лицо";
+"identity_aliyun_watch_the_screen" = "Смотрите на экран";
+"identity_aliyun_stack_time" = "Не двигайтесь";
+"identity_aliyun_is_occ" = "Держите лицо в кадре четко и без помех";
+
+"identity_aliyun_open_mouth" = "Откройте рот";
+"identity_left_yaw_guide" = "Поверните голову налево";
+"identity_right_yaw_guide" = "Поверните голову направо";
+// Тексты для отображения
+"identity_aliyun_zface_processing" = "Обработка";
+"identity_processing" = "Обработка...";
+"identity_aliyun_idcard_face" = "Поместите лицевую сторону документа в рамку и выровняйте";
+"identity_aliyun_idcard_back" = "Поместите оборотную сторону документа в рамку и выровняйте";
+"identity_ocr_result_btn_txt" = "Подтвердить";
+"identity_aliyun_submit" = "Отправить";
+"identity_aliyun_submit_back" = "Отправить";
+"identity_ocr_alert_title_photo_identity_text_watermark" = "Только для служебного использования";
+"identity_ocr_result_top_tips" = "При необходимости нажмите чтобы изменить информацию";
+"identity_ocr_result_latin_tips" = "Подтвердите ваше имя на латинице";
+"identity_ocr_mask_idcard_front_scan_passport_tips" = "Сделайте фото вашего паспорта";
+"identity_ocr_photo" = "Альбом";
+"identity_ocr_scan" = "Сканировать";
+"identity_ocr_take" = "Сфотографировать";
+"identity_aliyun_ekycpro_card" = "Сделайте фото вашего документа";
+"identity_aliyun_ekycpro_card_submit" = "Отправить фото документа";
+"identity_aliyun_idcard_image_tip" = "Изображение слишком маленькое, пожалуйста, подойдите ближе.";
+"identity_aliyun_idcard_angle_tip" = "Удостоверение личности наклонено слишком сильно.";
+
+// Тексты для alert-уведомлений
+"identity_ocr_alert_title_photo_identity_fail" = "Ошибка распознавания";
+"identity_ocr_alert_title_scan_single_timeout" = "Время распознавания истекло";
+"identity_aliyun_failures_limit" = "Превышено число попыток распознавания";
+"identity_ocr_photo_fail_id_type_error" = "Документ не обнаружен";
+"identity_aliyun_wrong_doc_type" = "Убедитесь что вы используете требуемый тип документа";
+"identity_aliyun_no_internet_connection" = "Нет подключения к сети";
+"identity_message_box_message_verify" = "Смотрите прямо в телефон так больше шансов на успех";
+"identity_ocr_alert_scan_message_timeout" = "Убедитесь что документ четкий без бликов и помех";
+"identity_ocr_alert_net_message_error" = "Проблемы с сетью попробуйте снова";
+"identity_ocr_result_title" = "Результаты распознавания";
+"identity_message_box_title_network" = "Проблемы с сетью";
+"identity_aliyun_try_again_more_times" = "Слишком много попыток попробуйте позже";
+"identity_ocr_alert_retry_text" = "Повторить";
+"identity_aliyun_interrupted" = "Операция прервана";
+"identity_message_box_btn_retry_ok" = "Попробовать снова";
+"identity_aliyun_no_camera_permission" = "Нет доступа к камере";
+"identity_aliyun_get_camera_permission" = "Разрешите доступ к камере в Настройки - Конфиденциальность - Камера";
+"identity_message_box_btn_exit" = "Выйти";
+"identity_message_box_title_exit_tip" = "Вы уверены что хотите выйти";
+"identity_message_box_message_exit_tip" = "Просто покажите лицо";
+"identity_message_box_btn_cancel_tip" = "Отмена";
+"identity_message_box_btn_confirm" = "Подтвердить";
+"identity_message_box_message_operation_fail" = "Операция не удалась";
+"identity_message_box_message_retry_face_scan_time_out" = "Слишком много попыток сканирования лица попробуйте позже";
+"identity_message_box_btn_i_know" = "Понятно";
+"identity_message_box_title_operation_time_out" = "Время операции истекло";
+"identity_tip_permission_storage" = "Нет доступа к фотоальбому";
+"identity_aliyun_get_photo_permission" = "Разрешите доступ к фото в Настройки - Конфиденциальность - Фото";
+// Страница редактирования OCR
+"identity_ocr_result_info_net_input_empty" = "Убедитесь что";
+"identity_ocr_result_info_net_input_empty1" = "не пустое";
+"identity_ocr_result_info_net_form_error" = "Введите правильный";
+"identity_ocr_result_info_edit_continue_tips" = "Подтвердите чтобы продолжить редактирование";
+// Подсказки для ID-карты Гонконга
+"identity_ocr_result_id_hong_kong_hint_sex" = "Муж/Жен";
+"identity_ocr_result_id_hong_kong_hint_isPermanent" = "Да/Нет";
+"identity_ocr_result_id_hong_kong_hint_currentIssueDate" = "ДД-ММ-ГГГГ";
+"identity_ocr_result_id_hong_kong_hint_idNumber" = "Пример: C123456(0)";
+"identity_ocr_result_id_hong_kong_hint_firstIssueDate" = "(ММ-ГГГГ)";
+"identity_ocr_result_id_hong_kong_hint_symbols" = "Пример: ***AZ";
+"identity_ocr_result_id_hong_kong_hint_nameCode" = "Китайский телеграфный код (если есть)";
+"identity_ocr_result_id_hong_kong_hint_name" = "Имя на китайском (если есть)";
+"identity_ocr_result_id_hong_kong_hint_englishName" = "Имя на английском";
+// Подсказки для пропуска в Гонконг и Макао
+"identity_ocr_result_id_hong_kong_go_hint_issueDate" = "ГГГГ-ММ-ДД";
+"identity_ocr_result_id_hong_kong_go_hint_idNumber" = "Пример: CC1234567";
+"identity_ocr_result_id_hong_kong_go_hint_name" = "Имя на китайском";
+"identity_ocr_result_id_hong_kong_go_hint_englishName" = "Имя (пиньинь)";
+"identity_ocr_result_id_hong_kong_go_hint_placeOfIssue" = "Пример: Пекин";
+"identity_ocr_result_id_hong_kong_go_hint_originOfIssue" = "Государственное миграционное управление КНР";
+// Пропуск для возвращения на родину
+"identity_ocr_result_id_hong_kong_return_hint_idNumber" = "Пример: H12345678";
+"identity_ocr_result_id_hong_kong_return_hint_englishName" = "Имя (пиньинь)";
+// Пропуск для соотечественников с Тайваня
+"identity_ocr_result_id_taiwan_hint_idNumber" = "Пример: 12345678";
+// ID-карта Макао
+"identity_ocr_result_id_macao_hint_idNumber" = "Пример: 1234567(8)";
+"identity_ocr_result_id_macao_hint_surnameCN" = "Фамилия (на китайском)";
+"identity_ocr_result_id_macao_givernamecn" = "Имя (на китайском)";
+"identity_ocr_result_id_macao_surname" = "Фамилия (на английском)";
+"identity_ocr_result_id_macao_givername" = "Имя (на английском)";
+"identity_ocr_result_id_macao_hint_placeOfBirth" = "Пример: AS";
+// Паспорт
+"identity_ocr_result_id_passport_hint_countryCode" = "Пример: CHN";
+"identity_ocr_result_id_passport_hint_surname" = "Фамилия";
+"identity_ocr_result_id_passport_hint_givenname" = "Имя";
+"identity_ocr_result_id_passport_hint_passportNo" = "Введите номер паспорта";
+// ID-карта континентального Китая
+"identity_ocr_result_id_mainland_name" = "Имя на китайском";
+"identity_ocr_result_id_mainland_ethnicity" = "Национальность";
+"identity_ocr_result_id_mainland_address" = "Адрес";
+"identity_ocr_result_id_mainland_idNumber" = "Номер ID-карты";
+// Тексты для полей карточек
+"identity_ocr_result_id_name" = "Имя на китайском";
+"identity_ocr_result_id_englishName" = "Имя на английском";
+"identity_ocr_result_id_sex" = "Пол";
+"identity_ocr_result_id_birthDate" = "Дата рождения";
+"identity_ocr_result_id_idNumber" = "Номер ID-карты";
+"identity_ocr_result_id_nameCode" = "Китайский телеграфный код";
+"identity_ocr_result_id_currentIssueDate" = "Текущая выдача";
+"identity_ocr_result_id_firstIssueDate" = "Первая выдача";
+"identity_ocr_result_id_isPermanent" = "Бессрочный";
+"identity_ocr_result_id_symbols" = "Символы";
+"identity_ocr_result_id_issueDate" = "Дата выдачи";
+"identity_ocr_result_id_expiryDate" = "Дата окончания срока";
+"identity_ocr_result_id_originOfIssue" = "Орган выдачи";
+"identity_ocr_result_id_passport_surname" = "Фамилия";
+"identity_ocr_result_id_passport_givenname" = "Имя";
+"identity_ocr_result_id_surnameCN" = "Фамилия";
+"identity_ocr_result_id_givennameCN" = "Имя";
+"identity_ocr_result_id_surname" = "Фамилия (на английском)";
+"identity_ocr_result_id_givenname" = "Имя (на английском)";
+"identity_ocr_result_id_passportNo" = "Номер паспорта";
+"identity_ocr_result_id_nationality" = "Гражданство";
+"identity_ocr_result_id_countryCode" = "Код страны";
+"identity_ocr_result_id_placeOfIssue" = "Место выдачи";
+"identity_ocr_result_id_placeOfBirth" = "Код места рождения";
+// Страница-руководство
+"identity_guide_ocr_photo_title" = "Фотографирование документа";
+"identity_guide_ocr_scan_title" = "Сканирование фото документа";
+"identity_guide_ocr_nfc_title" = "Безопасное чтение NFC";
+"identity_guide_ocr_photo_msg" = "Положите документ на однотонный фон и сфотографируйте целиком. Убедитесь что все углы видны";
+"identity_guide_ocr_scan_msg" = "Положите документ на однотонный фон в рамку. При хорошем освещении текст будет захвачен автоматически";
+"identity_guide_ocr_nfc_msg" = "Приложите заднюю часть телефона к документу на 1-3 см. Данные с чипа будут считаны автоматически. Держите неподвижно до вибрации";
+"identity_guide_start_btn" = "Начать";
+"identity_guide_authorization" = "I agree to the CA terms and conditions and believe that my personal data will be used accurately for Alibaba Cloud partner VIDA.<User T&C>";
+
+// NFC
+"identity_nfc_guide_title" = "Безопасное чтение NFC";
+"identity_nfc_guide_content" = "Приложите заднюю часть телефона к документу на 1-3 см чтобы автоматически считать данные с чипа и проверить их подлинность";
+"identity_nfc_begin_read" = "Начать проверку";
+"identity_nfc_read_fail" = "Проверка не удалась проверьте информацию в паспорте";
+"identity_nfc_sure" = "Хорошо";
+"identity_nfc_cancel" = "Отмена";
+"identity_nfc_done" = "Готово";
+"identity_nfc_card_no" = "Номер документа";
+"identity_nfc_birthday" = "Дата рождения";
+"identity_nfc_validity" = "Срок действия";
+"identity_nfc_card_no_placeholder" = " Введите номер документа";
+"identity_nfc_birthday_placeholder" = " Введите дату рождения";
+"identity_nfc_validity_placeholder" = " Введите срок действия";
+"identity_nfc_read_title" = "Распознавание информации";
+"identity_nfc_next_step" = "Далее";
+"identity_nfc_passport_placeholder" = "Введите данные паспорта";
+"identity_nfc_date_tips" = "Неверный формат даты используйте дд ММ гггг";
+"identity_nfc_check_date_tips" = "Срок действия должен быть позже даты рождения";
+"identity_nfc_sure2" = "Подтвердить";
+"identity_nfc_year" = "год";
+"identity_nfc_month" = "месяц";
+"identity_nfc_day" = "день";

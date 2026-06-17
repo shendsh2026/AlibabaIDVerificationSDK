@@ -1,0 +1,116 @@
+/*
+  Localizable.strings
+  AliyunIdentityFace
+
+  Created by Lingxuan on 2022/12/1.
+  Copyright © 2022 aliyun.com. All rights reserved.
+*/
+
+// 刷脸提示文案
+"identity_aliyun_face_comm_tips_text" = "Telefonu kaldırın, gözlerinizi kırpın";
+"identity_aliyun_no_face" = "Yüz algılanmadı";
+"identity_aliyun_no_face2" = "Yüz algılanmadı, lütfen telefona hizalayın";
+"identity_aliyun_blink_openness" = "Gözlerinizi kırpın";
+"identity_aliyun_distance_too_far" = "Lütfen yavaşça yaklaşın";
+"identity_aliyun_distance_too_close" = "Lütfen yavaşça uzaklaşın";
+"identity_aliyun_move_circle" = "Yüzünüzü çerçeveye alın";
+"identity_aliyun_bad_pitch" = "Lütfen telefona dik bakın";
+"identity_aliyun_is_moving" = "Lütfen sabit durun";
+"identity_aliyun_bad_brightness" = "Yüzünüzü aydınlatın";
+"identity_aliyun_move_circle2" = "Lütfen tam yüzünüzü gösterin";
+"identity_aliyun_watch_the_screen" = "Lütfen ekrana bakın";
+"identity_aliyun_stack_time" = "Lütfen hareketsiz kalın";
+"identity_aliyun_is_occ" = "Lütfen yüzünüzü tam, net ve engelsiz tutun";
+
+"identity_aliyun_open_mouth" = "Ağzınızı açın";
+"identity_left_yaw_guide" = "Başınızı sola çevirin";
+"identity_right_yaw_guide" = "Başınızı sağa çevirin";
+// 展示文案
+"identity_aliyun_zface_processing" = "İşleniyor";
+"identity_processing" = "İşleniyor...";
+"identity_aliyun_idcard_face" = "Lütfen kimliğin ön yüzünü çerçeveye yerleştirip hizalayın";
+"identity_aliyun_idcard_back" = "Lütfen kimliğin arka yüzünü çerçeveye yerleştirip hizalayın";
+"identity_ocr_result_btn_txt" = "Onayla";
+"identity_aliyun_submit" = "Gönder";
+"identity_aliyun_submit_back" = "Gönder";
+"identity_ocr_alert_title_photo_identity_text_watermark" = "Sadece İşlem İçin";
+"identity_ocr_result_top_tips" = "Gerekirse, bilgileri değiştirmek için tıklayın";
+"identity_ocr_result_latin_tips" = "Lütfen Latin harfleriyle yazılmış adınızı onaylayın";
+"identity_ocr_mask_idcard_front_scan_passport_tips" = "Pasaportunuzun fotoğrafını çekin";
+"identity_ocr_photo" = "Albüm";
+"identity_ocr_scan" = "Tara";
+"identity_ocr_take" = "Fotoğraf Çek";
+"identity_aliyun_ekycpro_card" = "Kimlik belgenizin fotoğrafını çekin";
+"identity_aliyun_ekycpro_card_submit" = "Kimlik Fotoğrafını Gönder";
+"identity_aliyun_idcard_image_tip" = "Görüntü çok küçük, lütfen daha yaklaşın.n.";
+"identity_aliyun_idcard_angle_tip" = "Kimlik belgesi çok eğik.";
+
+// alert 文案
+"identity_ocr_alert_title_photo_identity_fail" = "Tanıma başarısız";
+"identity_ocr_alert_title_scan_single_timeout" = "Tanıma zaman aşımı";
+"identity_aliyun_failures_limit" = "Tanıma deneme limitini aştınız";
+"identity_ocr_photo_fail_id_type_error" = "Belge algılanmadı";
+"identity_aliyun_wrong_doc_type" = "Lütfen doğru belge türünü kullandığınızdan emin olun";
+"identity_aliyun_no_internet_connection" = "İnternet bağlantısı kesildi";
+"identity_message_box_message_verify" = "Telefona dik bakmak başarı şansını artırır";
+"identity_ocr_alert_scan_message_timeout" = "Lütfen kimliğin net, tam, engelsiz ve parlamasız olduğundan emin olun";
+"identity_ocr_alert_net_message_error" = "Zayıf ağ, lütfen tekrar deneyin";
+"identity_ocr_result_title" = "Tanıma Sonucu";
+"identity_message_box_title_network" = "Zayıf Ağ Bağlantısı";
+"identity_aliyun_try_again_more_times" = "Çok fazla yeniden deneme yapıldı, lütfen sonra tekrar deneyin";
+"identity_ocr_alert_retry_text" = "Tekrar Dene";
+"identity_aliyun_interrupted" = "İşlem kesildi";
+"identity_message_box_btn_retry_ok" = "Tekrar Dene";
+"identity_aliyun_no_camera_permission" = "Kamera izni verilmedi";
+"identity_aliyun_get_camera_permission" = "Lütfen \"Ayarlar-Gizlilik-Kamera\" bölümünden kamera erişimine izin verin";
+"identity_message_box_btn_exit" = "Çıkış";
+"identity_message_box_title_exit_tip" = "Çıkmak istediğinizden emin misiniz?";
+"identity_message_box_message_exit_tip" = "Geçmek için sadece yüzünüzü göstermeniz yeterli";
+"identity_message_box_btn_cancel_tip" = "İptal";
+"identity_message_box_btn_confirm" = "Tamam";
+"identity_message_box_message_operation_fail" = "Bu işlem başarısız oldu";
+"identity_message_box_message_retry_face_scan_time_out" = "Çok fazla yüz tanıma denemesi yapıldı, lütfen sonra tekrar deneyin";
+"identity_message_box_btn_i_know" = "Anladım";
+"identity_message_box_title_operation_time_out" = "İşlem zaman aşımı";
+"identity_tip_permission_storage" = "Albüm izni verilmedi";
+"identity_aliyun_get_photo_permission" = "Lütfen \"Ayarlar-Gizlilik-Fotoğraflar\" bölümünden albüm iznini etkinleştirin";
+// OCR编辑页面
+"identity_ocr_result_info_net_input_empty" = "Lütfen emin olun";
+"identity_ocr_result_info_net_input_empty1" = "boş değil";
+"identity_ocr_result_info_net_form_error" = "Lütfen doğru girin";
+"identity_ocr_result_info_edit_continue_tips" = "Düzenlemeye devam etmek istediğinizden emin misiniz";
+
+//引导页
+"identity_guide_ocr_photo_title" = "Kimlik Fotoğrafı Çek";
+"identity_guide_ocr_scan_title" = "Kimlik Fotoğrafı Tara";
+"identity_guide_ocr_nfc_title" = "NFC Güvenli Okuma";
+"identity_guide_ocr_photo_msg" = "Lütfen kimliği düz renkli bir arka plana yerleştirin ve tam fotoğrafını çekin. Kimliğin dört köşesinin de engellenmediğinden emin olun.";
+"identity_guide_ocr_scan_msg" = "Lütfen kimliği düz renkli bir arka plana yerleştirin ve yardımcı çizgilerin içine alın. Yeterli ışık olduğunda kimlik resmi otomatik olarak yakalanacaktır, çekim yapmanıza gerek yoktur.";
+"identity_guide_ocr_nfc_msg" = "Telefonun arkasını kimliğe 1-3 cm paralel olarak yaklaştırın, şifreli çip verileri otomatik olarak okunacak ve doğrulanacaktır. Mavi ışık yandığında titreşim tamamlanana kadar sabit tutun.";
+"identity_guide_start_btn" = "Hemen Başla";
+"identity_guide_authorization" = "I agree to the CA terms and conditions and believe that my personal data will be used accurately for Alibaba Cloud partner VIDA.<User T&C>";
+
+
+//NFC
+"identity_nfc_guide_title" = "NFC Güvenli Okuma";
+"identity_nfc_guide_content" = "Telefonun arkasını kimliğe 1-3 cm paralel olarak yaklaştırın, şifreli çip verileri otomatik olarak okunacak ve doğrulanacaktır";
+"identity_nfc_begin_read" = "Doğrulamayı Başlat";
+"identity_nfc_read_fail" = "Doğrulama başarısız, lütfen pasaport bilgilerini kontrol edin";
+"identity_nfc_sure" = "Tamam";
+"identity_nfc_cancel" = "İptal";
+"identity_nfc_done" = "Tamamlandı";
+"identity_nfc_card_no" = "Belge Numarası";
+"identity_nfc_birthday" = "Doğum Tarihi";
+"identity_nfc_validity" = "Geçerlilik Tarihi";
+"identity_nfc_card_no_placeholder" = " Lütfen belge numarasını girin";
+"identity_nfc_birthday_placeholder" = " Lütfen doğum tarihini girin";
+"identity_nfc_validity_placeholder" = " Lütfen geçerlilik tarihini girin";
+"identity_nfc_read_title" = "Bilgi Tanıma";
+"identity_nfc_next_step" = "Sonraki Adım";
+"identity_nfc_passport_placeholder" = "Lütfen pasaport bilgilerini girin";
+"identity_nfc_date_tips" = "Tarih formatı yanlış, lütfen gg AA yyyy formatını kullanın";
+"identity_nfc_check_date_tips" = "Geçerlilik tarihi doğum tarihinden sonra olmalıdır";
+"identity_nfc_sure2" = "Tamam";
+"identity_nfc_year" = "Yıl";
+"identity_nfc_month" = "Ay";
+"identity_nfc_day" = "Gün";

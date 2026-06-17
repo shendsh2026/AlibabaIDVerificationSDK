@@ -1,0 +1,38 @@
+{
+  "deploymentTarget": "13.0",
+  "dependencies-pods": [
+    {
+      "name": "CUniqAlibabaIDVerificationSDK",
+      "repo": {
+        "git": "https://REPLACE_WITH_YOUR_GIT_REPO_URL.git",
+        "tag": "1.0.0"
+      }
+    }
+  ],
+  "frameworks": [
+    "AudioToolbox.framework",
+    "CoreML.framework",
+    "Accelerate.framework",
+    "AVFoundation.framework",
+    "CoreTelephony.framework",
+    "SystemConfiguration.framework",
+    "UIKit.framework",
+    "Foundation.framework",
+    "WebKit.framework",
+    "CoreMotion.framework",
+    "CoreMedia.framework",
+    "CoreVideo.framework",
+    "CoreNFC.framework",
+    "CryptoKit.framework",
+    "CryptoTokenKit.framework",
+    "Security.framework",
+    "libswiftCoreNFC.tbd",
+    "libc++.tbd",
+    "libz.tbd",
+    "libresolv.tbd",
+    "libsqlite3.tbd"
+  ],
+  "validArchitectures": [
+    "arm64"
+  ]
+}

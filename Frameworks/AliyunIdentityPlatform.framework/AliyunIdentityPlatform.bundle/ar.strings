@@ -1,0 +1,179 @@
+/*
+  Localizable.strings
+  AliyunIdentityFace
+
+  Created by Lingxuan on 2022/12/1.
+  Copyright © 2022 aliyun.com. All rights reserved.
+*/
+
+// 刷脸提示文案
+"identity_aliyun_face_comm_tips_text" = "ارفع هاتفك وارمش";
+"identity_aliyun_no_face" = "لم يتم اكتشاف الوجه";
+"identity_aliyun_no_face2" = "لم يتم اكتشاف وجه انظر إلى الهاتف";
+"identity_aliyun_blink_openness" = "ارمش بعينيك";
+"identity_aliyun_distance_too_far" = "اقترب ببطء";
+"identity_aliyun_distance_too_close" = "ابتعد ببطء";
+"identity_aliyun_move_circle" = "ضع وجهك داخل الإطار";
+"identity_aliyun_bad_pitch" = "انظر مباشرة إلى الهاتف";
+"identity_aliyun_is_moving" = "اجعل الصورة أكثر وضوحًا";
+"identity_aliyun_bad_brightness" = "اجعل وجهك أكثر إشراقًا";
+"identity_aliyun_move_circle2" = "أظهر وجهك بالكامل";
+"identity_aliyun_watch_the_screen" = "انظر إلى الشاشة";
+"identity_aliyun_stack_time" = "من فضلك ابق ثابتا";
+"identity_aliyun_is_occ" = "يرجى إبقاء وجهك واضحًا وغير محجوب";
+
+"identity_aliyun_open_mouth" = "افتح فمك";
+"identity_left_yaw_guide" = "أدر رأسك يسارًا";
+"identity_right_yaw_guide" = "أدر رأسك يمينًا";
+// 展示文案
+"identity_aliyun_zface_processing" = "جارٍ المعالجة";
+"identity_processing" = "جارٍ المعالجة...";
+"identity_aliyun_idcard_face" = "ضع وجه المستند داخل الإطار وقم بمحاذاته";
+"identity_aliyun_idcard_back" = "ضع ظهر المستند داخل الإطار وقم بمحاذاته";
+"identity_ocr_result_btn_txt" = "تأكيد";
+"identity_aliyun_submit" = "إرسال";
+"identity_aliyun_submit_back" = "إرسال";
+"identity_ocr_alert_title_photo_identity_text_watermark" = "للاستخدام التجاري فقط";
+"identity_ocr_result_top_tips" = "إذا لزم الأمر انقر لتعديل المعلومات";
+"identity_ocr_result_latin_tips" = "الرجاء تأكيد اسمك بالأحرف اللاتينية";
+"identity_ocr_mask_idcard_front_scan_passport_tips" = "التقط صورة لجواز سفرك";
+"identity_ocr_photo" = "ألبوم الصور";
+"identity_ocr_scan" = "مسح ضوئي";
+"identity_ocr_take" = "التقاط صورة";
+"identity_aliyun_ekycpro_card" = "التقط صورة لمستند هويتك";
+"identity_aliyun_ekycpro_card_submit" = "إرسال صورة المستند";
+"identity_aliyun_idcard_image_tip" = "الصورة صغيرة جدًّا، يرجى الاقتراب أكثر.";
+"identity_aliyun_idcard_angle_tip" = "زاوية ميل بطاقة الهوية كبيرة جدًّا.";
+
+
+// alert 文案
+"identity_ocr_alert_title_photo_identity_fail" = "فشل التعرف";
+"identity_ocr_alert_title_scan_single_timeout" = "انتهى وقت التعرف";
+"identity_aliyun_failures_limit" = "تم تجاوز عدد محاولات التعرف الفاشلة";
+"identity_ocr_photo_fail_id_type_error" = "لم يتم اكتشاف المستند";
+"identity_aliyun_wrong_doc_type" = "تأكد من أنك تستخدم نوع المستند المطلوب";
+"identity_aliyun_no_internet_connection" = "انقطع الاتصال بالإنترنت";
+"identity_message_box_message_verify" = "انظر مباشرة إلى الهاتف لفرصة نجاح أكبر";
+"identity_ocr_alert_scan_message_timeout" = "تأكد من أن المستند واضح وكامل وبلا انعكاسات أو عوائق";
+"identity_ocr_alert_net_message_error" = "الشبكة ضعيفة يرجى المحاولة مرة أخرى";
+"identity_ocr_result_title" = "نتائج التعرف";
+"identity_message_box_title_network" = "ضعف في الشبكة";
+"identity_aliyun_try_again_more_times" = "عدد المحاولات كثير جدًا يرجى المحاولة لاحقًا";
+"identity_ocr_alert_retry_text" = "إعادة المحاولة";
+"identity_aliyun_interrupted" = "تمت مقاطعة العملية";
+"identity_message_box_btn_retry_ok" = "حاول مرة أخرى";
+"identity_aliyun_no_camera_permission" = "لم يتم منح إذن الكاميرا";
+"identity_aliyun_get_camera_permission" = "يرجى السماح بالوصول إلى الكاميرا في الإعدادات - الخصوصية - الكاميرا";
+"identity_message_box_btn_exit" = "خروج";
+"identity_message_box_title_exit_tip" = "هل أنت متأكد من الخروج";
+"identity_message_box_message_exit_tip" = "يكفي أن تظهر وجهك";
+"identity_message_box_btn_cancel_tip" = "إلغاء";
+"identity_message_box_btn_confirm" = "تأكيد";
+"identity_message_box_message_operation_fail" = "فشلت هذه العملية";
+"identity_message_box_message_retry_face_scan_time_out" = "محاولات التعرف على الوجه كثيرة جدًا يرجى المحاولة لاحقًا";
+"identity_message_box_btn_i_know" = "حسنا";
+"identity_message_box_title_operation_time_out" = "انتهى وقت العملية";
+"identity_tip_permission_storage" = "لم يتم فتح إذن الألبوم";
+"identity_aliyun_get_photo_permission" = "يرجى تمكين الوصول إلى الألبوم في الإعدادات - الخصوصية - الصور";
+// OCR编辑页面
+"identity_ocr_result_info_net_input_empty" = "تأكد من أن";
+"identity_ocr_result_info_net_input_empty1" = "ليس فارغًا";
+"identity_ocr_result_info_net_form_error" = "الرجاء إدخال";
+"identity_ocr_result_info_edit_continue_tips" = "يرجى تأكيد ما إذا كنت تريد متابعة التحرير";
+// 香港身份证提示信息
+"identity_ocr_result_id_hong_kong_hint_sex" = "ذكر/أنثى";
+"identity_ocr_result_id_hong_kong_hint_isPermanent" = "نعم/لا";
+"identity_ocr_result_id_hong_kong_hint_currentIssueDate" = "يوم-شهر-سنة";
+"identity_ocr_result_id_hong_kong_hint_idNumber" = "مثال: C123456(0)";
+"identity_ocr_result_id_hong_kong_hint_firstIssueDate" = "(شهر-سنة)";
+"identity_ocr_result_id_hong_kong_hint_symbols" = "مثال: ***AZ";
+"identity_ocr_result_id_hong_kong_hint_nameCode" = "الرمز التجاري الصيني (إن وجد)";
+"identity_ocr_result_id_hong_kong_hint_name" = "الاسم بالصينية (إن وجد)";
+"identity_ocr_result_id_hong_kong_hint_englishName" = "الاسم بالإنجليزية";
+// 港澳通行证提示信息
+"identity_ocr_result_id_hong_kong_go_hint_issueDate" = "سنة-شهر-يوم";
+"identity_ocr_result_id_hong_kong_go_hint_idNumber" = "مثال: CC1234567";
+"identity_ocr_result_id_hong_kong_go_hint_name" = "الاسم بالصينية";
+"identity_ocr_result_id_hong_kong_go_hint_englishName" = "الاسم (بالبينيين)";
+"identity_ocr_result_id_hong_kong_go_hint_placeOfIssue" = "مثال: بكين";
+"identity_ocr_result_id_hong_kong_go_hint_originOfIssue" = "إدارة الهجرة الوطنية لجمهورية الصين الشعبية";
+// 回乡证
+"identity_ocr_result_id_hong_kong_return_hint_idNumber" = "مثال: H12345678";
+"identity_ocr_result_id_hong_kong_return_hint_englishName" = "الاسم (بالبينيين)";
+// 台胞证
+"identity_ocr_result_id_taiwan_hint_idNumber" = "مثال: 12345678";
+// 澳门身份证
+"identity_ocr_result_id_macao_hint_idNumber" = "مثال: 1234567(8)";
+"identity_ocr_result_id_macao_hint_surnameCN" = "اللقب (بالصينية)";
+"identity_ocr_result_id_macao_givernamecn" = "الاسم (بالصينية)";
+"identity_ocr_result_id_macao_surname" = "اللقب (بالإنجليزية)";
+"identity_ocr_result_id_macao_givername" = "الاسم (بالإنجليزية)";
+"identity_ocr_result_id_macao_hint_placeOfBirth" = "مثال: AS";
+// 全球护照
+"identity_ocr_result_id_passport_hint_countryCode" = "مثال: CHN";
+"identity_ocr_result_id_passport_hint_surname" = "اللقب";
+"identity_ocr_result_id_passport_hint_givenname" = "الاسم";
+"identity_ocr_result_id_passport_hint_passportNo" = "الرجاء إدخال رقم جواز السفر";
+// 大陆身份证
+"identity_ocr_result_id_mainland_name" = "الاسم بالصينية";
+"identity_ocr_result_id_mainland_ethnicity" = "العرق";
+"identity_ocr_result_id_mainland_address" = "العنوان";
+"identity_ocr_result_id_mainland_idNumber" = "رقم الهوية";
+//卡证文案
+"identity_ocr_result_id_name" = "الاسم بالصينية";
+"identity_ocr_result_id_englishName" = "الاسم بالإنجليزية";
+"identity_ocr_result_id_sex" = "الجنس";
+"identity_ocr_result_id_birthDate" = "تاريخ الميلاد";
+"identity_ocr_result_id_idNumber" = "رقم الهوية";
+"identity_ocr_result_id_nameCode" = "رقم التلغراف الصيني";
+"identity_ocr_result_id_currentIssueDate" = "الإصدار الحالي";
+"identity_ocr_result_id_firstIssueDate" = "الإصدار الأول";
+"identity_ocr_result_id_isPermanent" = "هل هو دائم";
+"identity_ocr_result_id_symbols" = "الرموز";
+"identity_ocr_result_id_issueDate" = "تاريخ الإصدار";
+"identity_ocr_result_id_expiryDate" = "تاريخ انتهاء الصلاحية";
+"identity_ocr_result_id_originOfIssue" = "جهة الإصدار";
+"identity_ocr_result_id_passport_surname" = "اللقب";
+"identity_ocr_result_id_passport_givenname" = "الاسم";
+"identity_ocr_result_id_surnameCN" = "اللقب";
+"identity_ocr_result_id_givennameCN" = "الاسم";
+"identity_ocr_result_id_surname" = "اللقب (بالإنجليزية)";
+"identity_ocr_result_id_givenname" = "الاسم (بالإنجليزية)";
+"identity_ocr_result_id_passportNo" = "رقم جواز السفر";
+"identity_ocr_result_id_nationality" = "الجنسية";
+"identity_ocr_result_id_countryCode" = "رمز الدولة";
+"identity_ocr_result_id_placeOfIssue" = "مكان الإصدار";
+"identity_ocr_result_id_placeOfBirth" = "رمز مكان الميلاد";
+//引导页
+"identity_guide_ocr_photo_title" = "التقاط صورة للمستند";
+"identity_guide_ocr_scan_title" = "مسح صورة المستند";
+"identity_guide_ocr_nfc_title" = "قراءة آمنة عبر NFC";
+"identity_guide_ocr_photo_msg" = "ضع المستند على خلفية بلون واحد والتقط صورة كاملة له. تأكد من أن جميع الزوايا ظاهرة";
+"identity_guide_ocr_scan_msg" = "ضع المستند على خلفية بلون واحد داخل الإطار. سيتم التقاط النص تلقائيًا في الإضاءة الجيدة";
+"identity_guide_ocr_nfc_msg" = "قرّب ظهر هاتفك من المستند بمسافة 1-3 سم. سيتم قراءة البيانات من الشريحة تلقائيًا. ابق ثابتًا حتى تشعر بالاهتزاز";
+"identity_guide_start_btn" = "ابدأ الآن";
+"identity_guide_authorization" = "I agree to the CA terms and conditions and believe that my personal data will be used accurately for Alibaba Cloud partner VIDA.<User T&C>";
+
+//NFC
+"identity_nfc_guide_title" = "قراءة آمنة عبر NFC";
+"identity_nfc_guide_content" = "قرّب ظهر هاتفك من المستند بمسافة 1-3 سم لقراءة بيانات الشريحة المشفرة تلقائيًا والتحقق من صحتها";
+"identity_nfc_begin_read" = "بدء التحقق";
+"identity_nfc_read_fail" = "فشل التحقق يرجى التحقق من معلومات جواز السفر";
+"identity_nfc_sure" = "حسنا";
+"identity_nfc_cancel" = "إلغاء";
+"identity_nfc_done" = "تم";
+"identity_nfc_card_no" = "رقم المستند";
+"identity_nfc_birthday" = "تاريخ الميلاد";
+"identity_nfc_validity" = "تاريخ انتهاء الصلاحية";
+"identity_nfc_card_no_placeholder" = " الرجاء إدخال رقم المستند";
+"identity_nfc_birthday_placeholder" = " الرجاء إدخال تاريخ الميلاد";
+"identity_nfc_validity_placeholder" = " الرجاء إدخال تاريخ انتهاء الصلاحية";
+"identity_nfc_read_title" = "التعرف على المعلومات";
+"identity_nfc_next_step" = "الخطوة التالية";
+"identity_nfc_passport_placeholder" = "الرجاء إدخال معلومات جواز السفر";
+"identity_nfc_date_tips" = "صيغة التاريخ غير صحيحة يرجى استخدام صيغة dd MM yyyy";
+"identity_nfc_check_date_tips" = "يجب أن يكون تاريخ انتهاء الصلاحية بعد تاريخ الميلاد";
+"identity_nfc_sure2" = "تأكيد";
+"identity_nfc_year" = "سنة";
+"identity_nfc_month" = "شهر";
+"identity_nfc_day" = "يوم";

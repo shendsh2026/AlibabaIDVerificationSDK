@@ -1,0 +1,182 @@
+/* 
+  Localizable.strings
+  AliyunIdentityFace
+
+  Created by Lingxuan on 2022/12/1.
+  Copyright © 2022 aliyun.com. All rights reserved.
+*/
+
+// 刷脸提示文案
+"identity_aliyun_face_comm_tips_text" = "Ambil ponsel Anda dan kedipkan mata";
+"identity_aliyun_no_face" = "Wajah tidak terdeteksi";
+"identity_aliyun_no_face2" = "Wajah tidak terdeteksi, harap hadapkan ke ponsel";
+"identity_aliyun_blink_openness" = "Kedipkan mata";
+"identity_aliyun_distance_too_far" = "Harap mendekat perlahan";
+"identity_aliyun_distance_too_close" = "Harap menjauh perlahan";
+"identity_aliyun_move_circle" = "Pindahkan wajah Anda ke dalam bingkai";
+"identity_aliyun_bad_pitch" = "Harap menghadap lurus ke ponsel";
+"identity_aliyun_is_moving" = "Mohon lebih jelas jangan bergerak";
+"identity_aliyun_bad_brightness" = "Wajah harap lebih terang";
+"identity_aliyun_move_circle2" = "Harap tunjukkan seluruh wajah";
+"identity_aliyun_watch_the_screen" = "Harap tatap layar";
+"identity_aliyun_stack_time" = "Harap jangan bergerak";
+"identity_aliyun_is_occ" = "Pastikan wajah lengkap, jelas, dan tidak terhalang";
+
+"identity_aliyun_open_mouth" = "Buka mulut";
+"identity_left_yaw_guide" = "Putar kepala ke kiri";
+"identity_right_yaw_guide" = "Putar kepala ke kanan";
+// 展示文案
+"identity_aliyun_zface_processing" = "Sedang memproses";
+"identity_processing" = "Sedang diproses";
+"identity_aliyun_idcard_face" = "Letakkan sisi foto identitas di dalam bingkai";
+"identity_aliyun_idcard_back" = "Letakkan bagian belakang identitas di dalam bingkai";
+"identity_ocr_result_btn_txt" = "Konfirmasi";
+"identity_aliyun_submit" = "Kirim";
+"identity_aliyun_submit_back" = "Kirim";
+"identity_ocr_alert_title_photo_identity_text_watermark" = "Hanya untuk penggunaan bisnis";
+"identity_ocr_result_top_tips" = "Jika perlu, klik untuk mengubah informasi";
+"identity_ocr_result_latin_tips" = "Harap konfirmasi nama Anda dalam aksara Latin";
+"identity_ocr_mask_idcard_front_scan_passport_tips" = "Ambil foto paspor Anda";
+"identity_ocr_photo" = "Album";
+"identity_ocr_scan" = "Pindai";
+"identity_ocr_take" = "Ambil Foto";
+"identity_aliyun_ekycpro_card" = "Ambil foto dokumen identitas Anda";
+"identity_aliyun_ekycpro_card_submit" = "Kirim foto identitas";
+"identity_aliyun_idcard_image_tip" = "Gambar terlalu kecil, mohon mendekat.";
+"identity_aliyun_idcard_angle_tip" = "Sudut kemiringan KTP terlalu besar.";
+
+// alert 文案
+"identity_ocr_alert_title_photo_identity_fail" = "Pengenalan Gagal";
+"identity_ocr_alert_title_scan_single_timeout" = "Pindai Melebihi Waktu";
+"identity_aliyun_failures_limit" = "Terlalu banyak percobaan gagal";
+"identity_ocr_photo_fail_id_type_error" = "Dokumen identitas tidak terdeteksi";
+"identity_aliyun_wrong_doc_type" = "Pastikan jenis dokumen yang Anda gunakan sudah sesuai";
+"identity_aliyun_no_internet_connection" = "Koneksi internet terputus";
+//"The scan is more likely to succeed if you directly face your mobile phone" = "Pemindaian lebih mungkin berhasil jika Anda mengarahkan wajah lurus menghadap ponsel Anda";
+"identity_ocr_alert_scan_message_timeout" = "Pastikan dokumen jelas, lengkap, tidak terhalang, dan tidak ada pantulan cahaya";
+//"Check network connectivity" = "Periksa konektivitas jaringan";
+"identity_ocr_result_title" = "Hasil Pengenalan";
+"identity_message_box_title_network" = "Jaringan Bermasalah";
+"identity_ocr_alert_net_message_error" = "Jaringan bermasalah, silakan coba lagi";
+"identity_aliyun_try_again_more_times" = "Terlalu banyak mencoba ulang Silakan coba lagi nanti";
+"identity_ocr_alert_retry_text" = "Coba Lagi";
+"identity_aliyun_interrupted" = "Operasi terganggu";
+"identity_message_box_message_verify" = "Menghadap lurus ke ponsel agar lebih mudah berhasil";
+"identity_message_box_btn_retry_ok" = "Coba Lagi";
+"identity_aliyun_no_camera_permission" = "Izin kamera tidak diberikan";
+"identity_aliyun_get_camera_permission" = "Izinkan akses kamera di Pengaturan > Privasi > Kamera";
+"identity_message_box_btn_exit" = "Keluar";
+"identity_message_box_title_exit_tip" = "Yakin ingin keluar";
+"identity_message_box_message_exit_tip" = "Cukup dengan scan wajah untuk lolos";
+"identity_message_box_btn_cancel_tip" = "Batal";
+"identity_message_box_btn_confirm" = "Konfirmasi";
+"identity_message_box_message_operation_fail" = "Operasi kali ini gagal";
+"identity_message_box_message_retry_face_scan_time_out" = "Terlalu banyak percobaan scan wajah Silakan coba lagi nanti";
+"identity_message_box_btn_i_know" = "Saya Mengerti";
+"identity_message_box_title_operation_time_out" = "Operasi Melebihi Waktu";
+"identity_tip_permission_storage" = "Izin album foto tidak diberikan";
+"identity_aliyun_get_photo_permission" = "Aktifkan izin album di Pengaturan > Privasi > Foto";
+//// OCR编辑页面
+"identity_ocr_result_info_net_input_empty" = "Harap pastikan";
+"identity_ocr_result_info_net_input_empty1" = "tidak kosong";
+"identity_ocr_result_info_net_form_error" = "Harap masukkan yang benar";
+"identity_ocr_result_info_edit_continue_tips" = "Yakin ingin melanjutkan pengeditan";
+// 香港身份证提示信息
+"identity_ocr_result_id_hong_kong_hint_sex" = "F/M";
+"identity_ocr_result_id_hong_kong_hint_isPermanent" = "Y/N";
+"identity_ocr_result_id_hong_kong_hint_currentIssueDate" = "dd-mm-yyyy";
+"identity_ocr_result_id_hong_kong_hint_idNumber" = "e.g. C123456(0)";
+"identity_ocr_result_id_hong_kong_hint_firstIssueDate" = "(MM-YY)";
+"identity_ocr_result_id_hong_kong_hint_symbols" = "e.g. ***AZ";
+"identity_ocr_result_id_hong_kong_hint_nameCode" = "Commercial Code (if any)";
+"identity_ocr_result_id_hong_kong_hint_name" = "Chinese name (if any)";
+"identity_ocr_result_id_hong_kong_hint_englishName" = "English name";
+// 港澳通行证提示信息
+"identity_ocr_result_id_hong_kong_go_hint_issueDate" = "yyyy-mm-dd";
+"identity_ocr_result_id_hong_kong_go_hint_idNumber" = "e.g. CC1234567";
+"Name in Chinese" = "Name in Chinese";
+"identity_ocr_result_id_hong_kong_go_hint_name" = "Name (pinyin)";
+"identity_ocr_result_id_hong_kong_go_hint_placeOfIssue" = "e.g.北京";
+"identity_ocr_result_id_hong_kong_go_hint_originOfIssue" = "中华人民共和国出入境管理局";
+// 回乡证
+"identity_ocr_result_id_hong_kong_return_hint_idNumber" = "e.g. H12345678";
+"identity_ocr_result_id_hong_kong_return_hint_englishName" = "Name in English";
+// 台胞证
+"identity_ocr_result_id_taiwan_hint_idNumber" = "e.g. 12345678";
+// 澳门身份证
+"identity_ocr_result_id_macao_hint_idNumber" = "e.g. 1234567(8)";
+"identity_ocr_result_id_macao_hint_surnameCN" = "Chinese surname";
+"identity_ocr_result_id_macao_givernamecn" = "Chinese given name";
+"identity_ocr_result_id_macao_surname" = "Family name";
+"identity_ocr_result_id_macao_givername" = "First name(s)";
+"identity_ocr_result_id_macao_hint_placeOfBirth" = "e.g. AS";
+// 全球护照
+"identity_ocr_result_id_passport_hint_countryCode" = "e.g. CHN";
+"identity_ocr_result_id_passport_hint_surname" = "First name";
+"identity_ocr_result_id_passport_hint_givenname" = "Last name";
+"identity_ocr_result_id_passport_hint_passportNo" = "please input passport No.";
+// 大陆身份证
+"identity_ocr_result_id_mainland_name" = "Name";
+"identity_ocr_result_id_mainland_ethnicity" = "Ethnicity";
+"identity_ocr_result_id_mainland_address" = "Address";
+"identity_ocr_result_id_mainland_idNumber" = "身份证号";
+//卡证文案
+"identity_ocr_result_id_name" = "Chinese Name";
+"identity_ocr_result_id_englishName" = "English Name";
+"identity_ocr_result_id_sex" = "Sex";
+"identity_ocr_result_id_birthDate" = "Date of Birth";
+"identity_ocr_result_id_idNumber" = "ID Number";
+"identity_ocr_result_id_nameCode" = "Name Code";
+"identity_ocr_result_id_currentIssueDate" = "Date of Issue";
+"identity_ocr_result_id_firstIssueDate" = "Date of First Issue";
+"identity_ocr_result_id_isPermanent" = "Permanent";
+"identity_ocr_result_id_symbols" = "Symbols";
+"identity_ocr_result_id_issueDate" = "Date of Issue";
+"identity_ocr_result_id_expiryDate" = "Date of Expiry";
+"identity_ocr_result_id_originOfIssue" = "Origin of Issue";
+"identity_ocr_result_id_passport_surname" = "Surname";
+"identity_ocr_result_id_passport_givenname" = "Given name";
+"identity_ocr_result_id_surnameCN" = "Surname CN";
+"identity_ocr_result_id_givennameCN" = "Given name CN";
+"identity_ocr_result_id_surname" = "Surname";
+"identity_ocr_result_id_givenname" = "Given name";
+"identity_ocr_result_id_passportNo" = "Passport Number";
+"identity_ocr_result_id_nationality" = "Nationality";
+"identity_ocr_result_id_countryCode" = "Country Code";
+"identity_ocr_result_id_placeOfIssue" = "Place of Issue";
+"identity_ocr_result_id_placeOfBirth" = "Place of Birth";
+//引导页
+"identity_guide_ocr_photo_title" = "Ambil Foto Identitas Anda";
+"identity_guide_ocr_scan_title" = "Pindai Identitas Anda";
+"identity_guide_ocr_nfc_title" = "Pembacaan NFC Aman";
+"identity_guide_ocr_photo_msg" = "Letakkan identitas di latar belakang berwarna polos dan ambil foto seluruh dokumen Pastikan keempat sudutnya tidak terhalang";
+"identity_guide_ocr_scan_msg" = "Letakkan identitas di latar belakang berwarna polos di dalam garis bantu Dalam cahaya yang cukup, teks akan ditangkap secara otomatis";
+"identity_guide_ocr_nfc_msg" = "Pegang bagian belakang ponsel Anda 1-3 cm dari identitas untuk membaca chip terenkripsi secara otomatis Saat lampu indikator muncul, tahan dengan stabil hingga Anda merasakan getaran";
+"identity_guide_start_btn" = "Mulai Sekarang";
+"identity_guide_authorization" = "Saya menyetujui syarat dan ketentuan CA dan percaya bahwa data pribadi saya akan digunakan secara akurat untuk mitra Alibaba Cloud, VIDA.<User T&C>";
+
+
+//NFC
+"identity_nfc_guide_title" = "Pembacaan NFC Aman";
+"identity_nfc_guide_content" = "Pegang bagian belakang ponsel Anda 1-3 cm dari dokumen untuk secara otomatis mengenali dan memverifikasi data chip terenkripsi";
+"identity_nfc_begin_read" = "Mulai Verifikasi";
+"identity_nfc_read_fail" = "Verifikasi gagal silakan periksa informasi paspor";
+"identity_nfc_sure" = "OK";
+"identity_nfc_cancel" = "Batal";
+"identity_nfc_done" = "Selesai";
+"identity_nfc_card_no" = "Nomor Dokumen";
+"identity_nfc_birthday" = "Tanggal Lahir";
+"identity_nfc_validity" = "Tanggal Kedaluwarsa";
+"identity_nfc_card_no_placeholder" = "Harap masukkan nomor dokumen";
+"identity_nfc_birthday_placeholder" = "Harap masukkan tanggal lahir";
+"identity_nfc_validity_placeholder" = "Harap masukkan tanggal kedaluwarsa";
+"identity_nfc_read_title" = "Pengenalan Informasi";
+"identity_nfc_next_step" = "Berikutnya";
+"identity_nfc_passport_placeholder" = "Harap masukkan informasi paspor";
+"identity_nfc_date_tips" = "Format tanggal salah, harap gunakan format dd MM yyyy";
+"identity_nfc_check_date_tips" = "Tanggal kedaluwarsa harus setelah tanggal lahir";
+"identity_nfc_sure2" = "Konfirmasi";
+"identity_nfc_year" = "Tahun";
+"identity_nfc_month" = "Bulan";
+"identity_nfc_day" = "Hari";
+

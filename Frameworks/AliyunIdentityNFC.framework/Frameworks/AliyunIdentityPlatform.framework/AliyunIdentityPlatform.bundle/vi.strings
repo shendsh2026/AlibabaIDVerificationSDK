@@ -1,0 +1,181 @@
+/* 
+  Localizable.strings
+  AliyunIdentityFace
+
+  Created by Lingxuan on 2022/12/1.
+  Copyright © 2022 aliyun.com. All rights reserved.
+*/
+
+// 刷脸提示文案
+"identity_aliyun_face_comm_tips_text" = "Cầm điện thoại lên và chớp mắt";
+"identity_aliyun_no_face" = "Không nhận diện được khuôn mặt";
+"identity_aliyun_no_face2" = "Không nhận diện được khuôn mặt, vui lòng nhìn thẳng vào điện thoại";
+"identity_aliyun_blink_openness" = "Vui lòng chớp mắt";
+"identity_aliyun_distance_too_far" = "Vui lòng di chuyển lại gần";
+"identity_aliyun_distance_too_close" = "Vui lòng di chuyển ra xa";
+"identity_aliyun_move_circle" = "Di chuyển khuôn mặt vào trong khung";
+"identity_aliyun_bad_pitch" = "Vui lòng nhìn thẳng vào điện thoại";
+"identity_aliyun_is_moving" = "Vui lòng giữ yên";
+"identity_aliyun_bad_brightness" = "Vui lòng để mặt sáng hơn";
+"identity_aliyun_move_circle2" = "Vui lòng lộ rõ cả khuôn mặt";
+"identity_aliyun_watch_the_screen" = "Vui lòng nhìn vào màn hình";
+"identity_aliyun_stack_time" = "Vui lòng giữ yên";
+"identity_aliyun_is_occ" = "Giữ khuôn mặt đầy đủ, rõ ràng, không bị che khuất";
+
+"identity_aliyun_open_mouth" = "Mở miệng";
+"identity_left_yaw_guide" = "Quay đầu sang trái";
+"identity_right_yaw_guide" = "Quay đầu sang phải";
+// 展示文案
+"identity_aliyun_zface_processing" = "Đang xử lý";
+"identity_processing" = "Đang xử lý";
+"identity_aliyun_idcard_face" = "Đặt mặt có ảnh của giấy tờ vào trong khung";
+"identity_aliyun_idcard_back" = "Đặt mặt sau của giấy tờ vào trong khung";
+"identity_ocr_result_btn_txt" = "Xác nhận";
+"identity_aliyun_submit" = "Gửi";
+"identity_aliyun_submit_back" = "Gửi";
+"identity_ocr_alert_title_photo_identity_text_watermark" = "Chỉ dùng cho mục đích nghiệp vụ";
+"identity_ocr_result_top_tips" = "Nhấn để sửa thông tin nếu cần";
+"identity_ocr_result_latin_tips" = "Vui lòng xác nhận tên Latin của bạn";
+"identity_ocr_mask_idcard_front_scan_passport_tips" = "Chụp ảnh hộ chiếu của bạn";
+"identity_ocr_photo" = "Album ảnh";
+"identity_ocr_scan" = "Quét";
+"identity_ocr_take" = "Chụp ảnh";
+"identity_aliyun_ekycpro_card" = "Chụp ảnh giấy tờ của bạn";
+"identity_aliyun_ekycpro_card_submit" = "Gửi ảnh giấy tờ";
+"identity_aliyun_idcard_image_tip" = "Hình ảnh quá nhỏ, vui lòng lại gần hơn.";
+"identity_aliyun_idcard_angle_tip" = "Giấy tờ bị nghiêng quá mức.";
+
+// alert 文案
+"identity_ocr_alert_title_photo_identity_fail" = "Nhận dạng thất bại";
+"identity_ocr_alert_title_scan_single_timeout" = "Quét quá thời gian";
+"identity_aliyun_failures_limit" = "Số lần nhận dạng thất bại vượt quá giới hạn";
+"identity_ocr_photo_fail_id_type_error" = "Không phát hiện được giấy tờ";
+"identity_aliyun_wrong_doc_type" = "Vui lòng xác nhận loại giấy tờ bạn sử dụng là hợp lệ";
+"identity_aliyun_no_internet_connection" = "Mất kết nối mạng";
+"identity_message_box_message_verify" = "Nhìn thẳng vào điện thoại sẽ dễ thành công hơn";
+//"The scan is more likely to succeed if you directly face your mobile phone" = "휴대전화를똑바로바라보면스캔에성공할가능성이높습니다";
+"identity_ocr_alert_scan_message_timeout" = "Đảm bảo giấy tờ rõ ràng, đầy đủ, không bị che và không bị lóa";
+"identity_ocr_alert_net_message_error" = "Lỗi mạng Vui lòng thử lại";
+//"Check network connectivity" = "네트워크연결을확인하세요";
+"identity_ocr_result_title" = "Kết quả nhận dạng";
+"identity_message_box_title_network" = "Lỗi Mạng";
+"identity_aliyun_try_again_more_times" = "Thử lại quá nhiều lần Vui lòng thử lại sau";
+"identity_ocr_alert_retry_text" = "Thử lại";
+"identity_aliyun_interrupted" = "Thao tác bị gián đoạn";
+"identity_message_box_btn_retry_ok" = "Thử lại lần nữa";
+"identity_aliyun_no_camera_permission" = "Chưa cấp quyền truy cập máy ảnh";
+"identity_aliyun_get_camera_permission" = "Vui lòng cho phép truy cập máy ảnh trong Cài đặt > Quyền riêng tư > Máy ảnh";
+"identity_message_box_btn_exit" = "Thoát";
+"identity_message_box_title_exit_tip" = "Bạn có chắc muốn thoát không";
+"identity_message_box_message_exit_tip" = "Chỉ cần quét mặt là xong";
+"identity_message_box_btn_cancel_tip" = "Hủy";
+"identity_message_box_btn_confirm" = "Xác nhận";
+"identity_message_box_message_operation_fail" = "Thao tác này đã thất bại";
+"identity_message_box_message_retry_face_scan_time_out" = "Quét mặt quá nhiều lần Vui lòng thử lại sau";
+"identity_message_box_btn_i_know" = "Tôi đã hiểu";
+"identity_message_box_title_operation_time_out" = "Thao tác quá thời gian";
+"identity_tip_permission_storage" = "Chưa cấp quyền truy cập album ảnh";
+"identity_aliyun_get_photo_permission" = "Vui lòng bật quyền truy cập trong Cài đặt > Quyền riêng tư > Ảnh";
+//// OCR编辑页面
+"identity_ocr_result_info_net_input_empty" = "Vui lòng đảm bảo";
+"identity_ocr_result_info_net_input_empty1" = "không để trống";
+"identity_ocr_result_info_net_form_error" = "Vui lòng nhập đúng";
+"identity_ocr_result_info_edit_continue_tips" = "Bạn có chắc muốn tiếp tục chỉnh sửa không";
+// 香港身份证提示信息
+"identity_ocr_result_id_hong_kong_hint_sex" = "F/M";
+"identity_ocr_result_id_hong_kong_hint_isPermanent" = "Y/N";
+"identity_ocr_result_id_hong_kong_hint_currentIssueDate" = "dd-mm-yyyy";
+"identity_ocr_result_id_hong_kong_hint_idNumber" = "e.g. C123456(0)";
+"identity_ocr_result_id_hong_kong_hint_firstIssueDate" = "(MM-YY)";
+"identity_ocr_result_id_hong_kong_hint_symbols" = "e.g. ***AZ";
+"identity_ocr_result_id_hong_kong_hint_nameCode" = "Commercial Code (if any)";
+"identity_ocr_result_id_hong_kong_hint_name" = "Chinese name (if any)";
+"identity_ocr_result_id_hong_kong_hint_englishName" = "English name";
+// 港澳通行证提示信息
+"identity_ocr_result_id_hong_kong_go_hint_issueDate" = "yyyy-mm-dd";
+"identity_ocr_result_id_hong_kong_go_hint_idNumber" = "e.g. CC1234567";
+"Name in Chinese" = "Name in Chinese";
+"identity_ocr_result_id_hong_kong_go_hint_name" = "Name (pinyin)";
+"identity_ocr_result_id_hong_kong_go_hint_placeOfIssue" = "e.g.北京";
+"identity_ocr_result_id_hong_kong_go_hint_originOfIssue" = "中华人民共和国出入境管理局";
+// 回乡证
+"identity_ocr_result_id_hong_kong_return_hint_idNumber" = "e.g. H12345678";
+"identity_ocr_result_id_hong_kong_return_hint_englishName" = "Name in English";
+// 台胞证
+"identity_ocr_result_id_taiwan_hint_idNumber" = "e.g. 12345678";
+// 澳门身份证
+"identity_ocr_result_id_macao_hint_idNumber" = "e.g. 1234567(8)";
+"identity_ocr_result_id_macao_hint_surnameCN" = "Chinese surname";
+"identity_ocr_result_id_macao_givernamecn" = "Chinese given name";
+"identity_ocr_result_id_macao_surname" = "Family name";
+"identity_ocr_result_id_macao_givername" = "First name(s)";
+"identity_ocr_result_id_macao_hint_placeOfBirth" = "e.g. AS";
+// 全球护照
+"identity_ocr_result_id_passport_hint_countryCode" = "e.g. CHN";
+"identity_ocr_result_id_passport_hint_surname" = "First name";
+"identity_ocr_result_id_passport_hint_givenname" = "Last name";
+"identity_ocr_result_id_passport_hint_passportNo" = "please input passport No.";
+// 大陆身份证
+"identity_ocr_result_id_mainland_name" = "Name";
+"identity_ocr_result_id_mainland_ethnicity" = "Ethnicity";
+"identity_ocr_result_id_mainland_address" = "Address";
+"identity_ocr_result_id_mainland_idNumber" = "ID Number";
+//卡证文案
+"identity_ocr_result_id_name" = "Chinese Name";
+"identity_ocr_result_id_englishName" = "English Name";
+"identity_ocr_result_id_sex" = "Sex";
+"identity_ocr_result_id_birthDate" = "Date of Birth";
+"identity_ocr_result_id_idNumber" = "ID Number";
+"identity_ocr_result_id_nameCode" = "Name Code";
+"identity_ocr_result_id_currentIssueDate" = "Date of Issue";
+"identity_ocr_result_id_firstIssueDate" = "Date of First Issue";
+"identity_ocr_result_id_isPermanent" = "Permanent";
+"identity_ocr_result_id_symbols" = "Symbols";
+"identity_ocr_result_id_issueDate" = "Date of Issue";
+"identity_ocr_result_id_expiryDate" = "Date of Expiry";
+"identity_ocr_result_id_originOfIssue" = "Origin of Issue";
+"identity_ocr_result_id_passport_surname" = "Surname";
+"identity_ocr_result_id_passport_givenname" = "Given name";
+"identity_ocr_result_id_surnameCN" = "Surname CN";
+"identity_ocr_result_id_givennameCN" = "Given name CN";
+"identity_ocr_result_id_surname" = "Surname";
+"identity_ocr_result_id_givenname" = "Given name";
+"identity_ocr_result_id_passportNo" = "Passport Number";
+"identity_ocr_result_id_nationality" = "Nationality";
+"identity_ocr_result_id_countryCode" = "Country Code";
+"identity_ocr_result_id_placeOfIssue" = "Place of Issue";
+"identity_ocr_result_id_placeOfBirth" = "Place of Birth";
+//引导页
+"identity_guide_ocr_photo_title" = "Chụp ảnh giấy tờ";
+"identity_guide_ocr_scan_title" = "Quét giấy tờ";
+"identity_guide_ocr_nfc_title" = "Đọc NFC an toàn";
+"identity_guide_ocr_photo_msg" = "Đặt giấy tờ trên nền trơn màu và chụp toàn bộ Đảm bảo bốn góc không bị che khuất";
+"identity_guide_ocr_scan_msg" = "Đặt giấy tờ trên nền trơn màu trong vạch hướng dẫn Ánh sáng đủ sẽ tự động nhận diện chữ, không cần chụp";
+"identity_guide_ocr_nfc_msg" = "Giữ mặt sau điện thoại song song với giấy tờ cách 1-3 cm để tự động đọc chip mã hóa Khi đèn báo xuất hiện, giữ ổn định cho đến khi cảm thấy rung";
+"identity_guide_start_btn" = "Bắt đầu ngay";
+"identity_guide_authorization" = "I agree to the CA terms and conditions and believe that my personal data will be used accurately for Alibaba Cloud partner VIDA.<User T&C>";
+
+//NFC
+"identity_nfc_guide_title" = "Đọc NFC an toàn";
+"identity_nfc_guide_content" = "Giữ mặt sau điện thoại cách giấy tờ 1-3 cm để tự động nhận dạng và xác minh dữ liệu chip mã hóa";
+"identity_nfc_begin_read" = "Bắt đầu xác thực";
+"identity_nfc_read_fail" = "Xác thực thất bại vui lòng kiểm tra thông tin hộ chiếu";
+"identity_nfc_sure" = "OK";
+"identity_nfc_cancel" = "Hủy";
+"identity_nfc_done" = "Hoàn thành";
+"identity_nfc_card_no" = "Số giấy tờ";
+"identity_nfc_birthday" = "Ngày sinh";
+"identity_nfc_validity" = "Ngày hết hạn";
+"identity_nfc_card_no_placeholder" = "Vui lòng nhập số giấy tờ";
+"identity_nfc_birthday_placeholder" = "Vui lòng nhập ngày sinh";
+"identity_nfc_validity_placeholder" = "Vui lòng nhập ngày hết hạn";
+"identity_nfc_read_title" = "Nhận dạng thông tin";
+"identity_nfc_next_step" = "Tiếp theo";
+"identity_nfc_passport_placeholder" = "Vui lòng nhập thông tin hộ chiếu";
+"identity_nfc_date_tips" = "Định dạng ngày không đúng, vui lòng sử dụng định dạng dd MM yyyy";
+"identity_nfc_check_date_tips" = "Ngày hết hạn phải sau ngày sinh";
+"identity_nfc_sure2" = "Xác nhận";
+"identity_nfc_year" = "Năm";
+"identity_nfc_month" = "Tháng";
+"identity_nfc_day" = "Ngày";
+

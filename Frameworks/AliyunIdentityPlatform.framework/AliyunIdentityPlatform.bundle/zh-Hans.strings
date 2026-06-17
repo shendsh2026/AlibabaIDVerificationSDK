@@ -1,0 +1,180 @@
+/*
+  Localizable.strings
+  AliyunIdentityFace
+
+  Created by Lingxuan on 2022/12/1.
+  Copyright © 2022 aliyun.com. All rights reserved.
+*/
+
+// 刷脸提示文案
+"identity_aliyun_face_comm_tips_text" = "拿起手机，眨眨眼";
+"identity_aliyun_no_face" = "没有检测到脸";
+"identity_aliyun_no_face2" = "未检测到脸，请对准手机"; // 不变
+"identity_aliyun_blink_openness" = "眨眨眼";
+"identity_aliyun_distance_too_far" = "请缓慢靠近";
+"identity_aliyun_distance_too_close" = "请缓慢远离";
+"identity_aliyun_move_circle" = "把脸移入框内";   // 不变
+"identity_aliyun_bad_pitch" = "请正对手机";
+"identity_aliyun_is_moving" = "再清晰一点";
+"identity_aliyun_bad_brightness" = "脸部亮一点";
+"identity_aliyun_move_circle2" = "请露出正脸";    // 不变
+"identity_aliyun_watch_the_screen" = "请注视屏幕";   // 不变
+"identity_aliyun_stack_time" = "请保持不动";
+"identity_aliyun_is_occ" = "请保持面部完整清晰无遮挡";
+"identity_aliyun_open_mouth" = "张张嘴";
+"identity_left_yaw_guide" = "向左摇头";
+"identity_right_yaw_guide" = "向右摇头";
+
+// 展示文案
+"identity_aliyun_zface_processing" = "正在处理";
+"identity_processing" = "处理中...";
+"identity_aliyun_idcard_face" = "请将证件人像面放入框内并对齐"; // 不变
+"identity_aliyun_idcard_back" = "请将证件背面放入框内并对齐"; // 不变
+"identity_ocr_result_btn_txt" = "确认无误";
+"identity_aliyun_submit" = "提交";  // 不变
+"identity_aliyun_submit_back" = "提交";  // 不变
+"identity_ocr_alert_title_photo_identity_text_watermark" = "仅供业务使用";
+"identity_ocr_result_top_tips" = "如有需要，请点击修改信息";
+"identity_ocr_result_latin_tips" = "请确认您的拉丁文姓名";
+"identity_ocr_mask_idcard_front_scan_passport_tips" = "拍摄您的护照照片";
+"identity_ocr_photo" = "相册";
+"identity_ocr_scan" = "扫描";
+"identity_ocr_take" = "拍照";
+"identity_aliyun_ekycpro_card" = "拍摄您的证件照片";
+"identity_aliyun_ekycpro_card_submit" = "提交证件照片";
+"identity_aliyun_idcard_image_tip" = "图片过小，请靠近一些。";
+"identity_aliyun_idcard_angle_tip" = "ID 倾斜角度过大。";
+
+
+// alert 文案
+"identity_ocr_alert_title_photo_identity_fail" = "识别失败";
+"identity_ocr_alert_title_scan_single_timeout" = "识别超时";
+"identity_aliyun_failures_limit" = "识别失败次数超限"; // 不变
+"identity_ocr_photo_fail_id_type_error" = "检测不到证件";
+"identity_aliyun_wrong_doc_type" = "请确认您使用的证件类型符合要求"; // 不变
+"identity_aliyun_no_internet_connection" = "网络连接断开";//不变
+"identity_message_box_message_verify" = "正对手机，更容易成功";
+"identity_ocr_alert_scan_message_timeout" = "请确保证件清晰完整，无遮挡和反光";
+"identity_ocr_alert_net_message_error" = "网络不给力，请重试";
+"identity_ocr_result_title" = "识别结果";
+"identity_message_box_title_network" = "网络不给力";
+"identity_aliyun_try_again_more_times" = "重试次数过多，请稍后再试"; // 不变
+"identity_ocr_alert_retry_text" = "重试";
+"identity_aliyun_interrupted" = "操作中断"; // 不变
+"identity_message_box_btn_retry_ok" = "再试一次";
+"identity_aliyun_no_camera_permission" = "相机权限未授予"; // 不变
+"identity_aliyun_get_camera_permission" = "请在\"设置-隐私-相机\"中允许访问相机"; // 不变
+"identity_message_box_btn_exit" = "退出";
+"identity_message_box_title_exit_tip" = "确定退出吗";
+"identity_message_box_message_exit_tip" = "露个脸就能通过";
+"identity_message_box_btn_cancel_tip" = "取消";
+"identity_message_box_btn_confirm" = "确定";
+"identity_message_box_message_operation_fail" = "本次操作失败";
+"identity_message_box_message_retry_face_scan_time_out" = "刷脸次数过多，请稍后再试";
+"identity_message_box_btn_i_know" = "我知道了";
+"identity_message_box_title_operation_time_out" = "操作超时";
+"identity_tip_permission_storage" = "相册权限未打开";
+"identity_aliyun_get_photo_permission" = "请到 \"设置-隐私-照片\" 启用相册权限"; // 不变
+// OCR编辑页面
+"identity_ocr_result_info_net_input_empty" = "请确保";
+"identity_ocr_result_info_net_input_empty1" = "不为空";
+"identity_ocr_result_info_net_form_error" = "请输入正确的";
+"identity_ocr_result_info_edit_continue_tips" = "请确认是否要继续编辑";
+// 香港身份证提示信息
+"identity_ocr_result_id_hong_kong_hint_sex" = "男/女";
+"identity_ocr_result_id_hong_kong_hint_isPermanent" = "是/否";
+"identity_ocr_result_id_hong_kong_hint_currentIssueDate" = "日-月-年";
+"identity_ocr_result_id_hong_kong_hint_idNumber" = "如：C123456(0)";
+"identity_ocr_result_id_hong_kong_hint_firstIssueDate" = "(月-年)";
+"identity_ocr_result_id_hong_kong_hint_symbols" = "如：***AZ";
+"identity_ocr_result_id_hong_kong_hint_nameCode" = "中文电码（如有）";
+"identity_ocr_result_id_hong_kong_hint_name" = "中文姓名（如有）";
+"identity_ocr_result_id_hong_kong_hint_englishName" = "英文姓名";
+// 港澳通行证提示信息
+"identity_ocr_result_id_hong_kong_go_hint_issueDate" = "年-月-日";
+"identity_ocr_result_id_hong_kong_go_hint_idNumber" = "如：CC1234567";
+"identity_ocr_result_id_hong_kong_go_hint_name" = "中文姓名";
+"identity_ocr_result_id_hong_kong_go_hint_englishName" = "姓名（拼音）";
+"identity_ocr_result_id_hong_kong_go_hint_placeOfIssue" = "如：北京";
+"identity_ocr_result_id_hong_kong_go_hint_originOfIssue" = "中华人民共和国出入境管理局";
+// 回乡证
+"identity_ocr_result_id_hong_kong_return_hint_idNumber" = "如：H12345678";
+"identity_ocr_result_id_hong_kong_return_hint_englishName" = "姓名（拼音）";
+// 台胞证
+"identity_ocr_result_id_taiwan_hint_idNumber" = "如：12345678";
+// 澳门身份证
+"identity_ocr_result_id_macao_hint_idNumber" = "如：1234567(8)";
+"identity_ocr_result_id_macao_hint_surnameCN" = "中文姓";
+"identity_ocr_result_id_macao_givernamecn" = "中文名";
+"identity_ocr_result_id_macao_surname" = "英文姓";
+"identity_ocr_result_id_macao_givername" = "英文名";
+"identity_ocr_result_id_macao_hint_placeOfBirth" = "如：AS";
+// 全球护照
+"identity_ocr_result_id_passport_hint_countryCode" = "如：CHN";
+"identity_ocr_result_id_passport_hint_surname" = "姓";
+"identity_ocr_result_id_passport_hint_givenname" = "名";
+"identity_ocr_result_id_passport_hint_passportNo" = "请输入护照号码";
+// 大陆身份证
+"identity_ocr_result_id_mainland_name" = "中文姓名";
+"identity_ocr_result_id_mainland_ethnicity" = "民族";
+"identity_ocr_result_id_mainland_address" = "住址";
+"identity_ocr_result_id_mainland_idNumber" = "身份证号";
+//卡证文案
+"identity_ocr_result_id_name" = "中文姓名";
+"identity_ocr_result_id_englishName" = "英文姓名";
+"identity_ocr_result_id_sex" = "性别";
+"identity_ocr_result_id_birthDate" = "出生日期";
+"identity_ocr_result_id_idNumber" = "身份证号";
+"identity_ocr_result_id_nameCode" = "中文电报号码";
+"identity_ocr_result_id_currentIssueDate" = "本次签发";
+"identity_ocr_result_id_firstIssueDate" = "首次签发";
+"identity_ocr_result_id_isPermanent" = "是否永久";
+"identity_ocr_result_id_symbols" = "符号";
+"identity_ocr_result_id_issueDate" = "签发日期";
+"identity_ocr_result_id_expiryDate" = "失效日期";
+"identity_ocr_result_id_originOfIssue" = "签发机关";
+"identity_ocr_result_id_passport_surname" = "姓";
+"identity_ocr_result_id_passport_givenname" = "名";
+"identity_ocr_result_id_surnameCN" = "姓";
+"identity_ocr_result_id_givennameCN" = "名";
+"identity_ocr_result_id_surname" = "英文姓";
+"identity_ocr_result_id_givenname" = "英文名";
+"identity_ocr_result_id_passportNo" = "护照号码";
+"identity_ocr_result_id_nationality" = "国籍";
+"identity_ocr_result_id_countryCode" = "国家码";
+"identity_ocr_result_id_placeOfIssue" = "签发地点";
+"identity_ocr_result_id_placeOfBirth" = "出生地代码";
+//引导页
+"identity_guide_ocr_photo_title" = "拍摄证件照片";
+"identity_guide_ocr_scan_title" = "扫描证件照片";
+"identity_guide_ocr_nfc_title" = "NFC安全读取";
+"identity_guide_ocr_photo_msg" = "请将证件平铺于纯色背景，并拍摄完整证件。请保证证件四角无遮挡。";
+"identity_guide_ocr_scan_msg" = "请将证件平铺于纯色背景并置于辅助线内，光线充足时将智能捕捉文字，无需拍摄。";
+"identity_guide_ocr_nfc_msg" = "请将手机背部平行贴近证件1-3厘米，自动识别加密芯片数据并验证真伪，蓝光提示时保持稳定直至震动完成。";
+"identity_guide_start_btn" = "立即开始";
+"identity_guide_authorization" = "I agree to the CA terms and conditions and believe that my personal data will be used accurately for Alibaba Cloud partner VIDA.<User T&C>";
+
+//NFC
+"identity_nfc_guide_title" = "NFC安全读取";
+"identity_nfc_guide_content" = "请将手机背部平行贴近证件1-3厘米，自动识别加密芯片数据并验证真伪";
+"identity_nfc_begin_read" = "开始认证";
+"identity_nfc_read_fail" = "认证失败请检查护照信息";
+"identity_nfc_sure" = "好的";
+"identity_nfc_cancel" = "取消";
+"identity_nfc_done" = "完成";
+"identity_nfc_card_no" = "证件号码";
+"identity_nfc_birthday" = "出生日期";
+"identity_nfc_validity" = "有效期";
+"identity_nfc_card_no_placeholder" = " 请输入证件号码";
+"identity_nfc_birthday_placeholder" = " 请输入出生日期";
+"identity_nfc_validity_placeholder" = " 请输入有效期";
+"identity_nfc_read_title" = "信息识别";
+"identity_nfc_next_step" = "下一步";
+"identity_nfc_passport_placeholder" = "请输入护照信息";
+"identity_nfc_date_tips" = "日期格式不正确，请使用dd MM yyyy格式";
+"identity_nfc_check_date_tips" = "有效期必须大于出生日期";
+"identity_nfc_sure2" = "确定";
+"identity_nfc_year" = "年";
+"identity_nfc_month" = "月";
+"identity_nfc_day" = "日";
+

@@ -1,0 +1,179 @@
+/*
+  Localizable.strings
+  AliyunIdentityFace
+
+  Created by Lingxuan on 2022/12/1.
+  Copyright © 2022 aliyun.com. All rights reserved.
+*/
+
+// 刷脸提示文案
+"identity_aliyun_face_comm_tips_text" = "Sostén tu teléfono y parpadea";
+"identity_aliyun_no_face" = "No se ha detectado ningún rostro";
+"identity_aliyun_no_face2" = "No se ha detectado ningún rostro, por favor mire a la cámara";
+"identity_aliyun_blink_openness" = "Parpadea";
+"identity_aliyun_distance_too_far" = "Acércate lentamente por favor";
+"identity_aliyun_distance_too_close" = "Aléjate lentamente por favor";
+"identity_aliyun_move_circle" = "Mueve tu rostro dentro del marco";
+"identity_aliyun_bad_pitch" = "Mira directamente a la cámara por favor";
+"identity_aliyun_is_moving" = "Mantente quieto por favor";
+"identity_aliyun_bad_brightness" = "Más luz en tu rostro";
+"identity_aliyun_move_circle2" = "Muestra tu rostro completo por favor";
+"identity_aliyun_watch_the_screen" = "Mira la pantalla por favor";
+"identity_aliyun_stack_time" = "Mantente quieto por favor";
+"identity_aliyun_is_occ" = "Mantén tu rostro completamente visible y sin obstrucciones";
+
+"identity_aliyun_open_mouth" = "Abre la boca";
+"identity_left_yaw_guide" = "Gira la cabeza a la izquierda";
+"identity_right_yaw_guide" = "Gira la cabeza a la derecha";
+// 展示文案
+"identity_aliyun_zface_processing" = "Procesando";
+"identity_processing" = "Procesando";
+"identity_aliyun_idcard_face" = "Coloca el lado de la foto de tu ID en el marco";
+"identity_aliyun_idcard_back" = "Coloca el reverso de tu ID en el marco";
+"identity_ocr_result_btn_txt" = "Confirmar";
+"identity_aliyun_submit" = "Enviar";
+"identity_aliyun_submit_back" = "Enviar";
+"identity_ocr_alert_title_photo_identity_text_watermark" = "Solo para fines de verificación";
+"identity_ocr_result_top_tips" = "Toca para editar la información si es necesario";
+"identity_ocr_result_latin_tips" = "Por favor, confirme su nombre en caracteres latinos";
+"identity_ocr_mask_idcard_front_scan_passport_tips" = "Toma una foto de tu pasaporte";
+"identity_ocr_photo" = "Álbum";
+"identity_ocr_scan" = "Escanear";
+"identity_ocr_take" = "Tomar Foto";
+"identity_aliyun_ekycpro_card" = "Toma una foto de tu documento de identidad";
+"identity_aliyun_ekycpro_card_submit" = "Enviar foto de ID";
+"identity_aliyun_idcard_image_tip" = "La imagen es demasiado pequeña, acérquese un poco.";
+"identity_aliyun_idcard_angle_tip" = "El documento está demasiado inclinado.";
+
+// alert 文案
+"identity_ocr_alert_title_photo_identity_fail" = "Reconocimiento fallido";
+"identity_ocr_alert_title_scan_single_timeout" = "Escaneo agotado";
+"identity_aliyun_failures_limit" = "Demasiados intentos fallidos";
+"identity_ocr_photo_fail_id_type_error" = "Documento de ID no detectado";
+"identity_aliyun_wrong_doc_type" = "Asegúrate de que estás usando el tipo de documento correcto";
+"identity_aliyun_no_internet_connection" = "Conexión de red perdida";
+"identity_message_box_message_verify" = "Mira directamente a la cámara para mejores resultados";
+"identity_ocr_alert_scan_message_timeout" = "Asegúrate de que el ID esté claro, visible y sin reflejos";
+"identity_ocr_alert_net_message_error" = "Error de red. Por favor inténtalo de nuevo";
+"identity_ocr_result_title" = "Resultados del escaneo";
+"identity_message_box_title_network" = "Error de red";
+"identity_aliyun_try_again_more_times" = "Demasiados reintentos. Por favor inténtalo más tarde";
+"identity_ocr_alert_retry_text" = "Reintentar";
+"identity_aliyun_interrupted" = "Proceso interrumpido";
+"identity_message_box_btn_retry_ok" = "Intentar de nuevo";
+"identity_aliyun_no_camera_permission" = "Permiso de cámara no concedido";
+"identity_aliyun_get_camera_permission" = "Habilita el acceso a la cámara en Ajustes > Privacidad > Cámara";
+"identity_message_box_btn_exit" = "Salir";
+"identity_message_box_title_exit_tip" = "Estás seguro de que quieres salir?";
+"identity_message_box_message_exit_tip" = "Solo un escaneo facial rápido para terminar";
+"identity_message_box_btn_cancel_tip" = "Cancelar";
+"identity_message_box_btn_confirm" = "Confirmar";
+"identity_message_box_message_operation_fail" = "Operación fallida";
+"identity_message_box_message_retry_face_scan_time_out" = "Demasiados intentos de escaneo facial. Por favor inténtalo más tarde";
+"identity_message_box_btn_i_know" = "Entendido";
+"identity_message_box_title_operation_time_out" = "Operación agotada";
+"identity_tip_permission_storage" = "Permiso de la fototeca no concedido";
+"identity_aliyun_get_photo_permission" = "Habilita el acceso en Ajustes > Privacidad > Fotos";
+// OCR编辑页面
+"identity_ocr_result_info_net_input_empty" = "Por favor asegúrate";
+"identity_ocr_result_info_net_input_empty1" = "no está vacío";
+"identity_ocr_result_info_net_form_error" = "Por favor introduce un";
+"identity_ocr_result_info_edit_continue_tips" = "¿Estás seguro de que quieres continuar editando?";
+// 香港身份证提示信息
+"identity_ocr_result_id_hong_kong_hint_sex" = "F/M";
+"identity_ocr_result_id_hong_kong_hint_isPermanent" = "Y/N";
+"identity_ocr_result_id_hong_kong_hint_currentIssueDate" = "dd-mm-yyyy";
+"identity_ocr_result_id_hong_kong_hint_idNumber" = "e.g. C123456(0)";
+"identity_ocr_result_id_hong_kong_hint_firstIssueDate" = "(MM-YY)";
+"identity_ocr_result_id_hong_kong_hint_symbols" = "e.g. ***AZ";
+"identity_ocr_result_id_hong_kong_hint_nameCode" = "Commercial Code (if any)";
+"identity_ocr_result_id_hong_kong_hint_name" = "Chinese name (if any)";
+"identity_ocr_result_id_hong_kong_hint_englishName" = "English name";
+// 港澳通行证提示信息
+"identity_ocr_result_id_hong_kong_go_hint_issueDate" = "yyyy-mm-dd";
+"identity_ocr_result_id_hong_kong_go_hint_idNumber" = "e.g. CC1234567";
+"Name in Chinese" = "Name in Chinese";
+"identity_ocr_result_id_hong_kong_go_hint_name" = "Name (pinyin)";
+"identity_ocr_result_id_hong_kong_go_hint_placeOfIssue" = "e.g.北京";
+"identity_ocr_result_id_hong_kong_go_hint_originOfIssue" = "中华人民共和国出入境管理局";
+// 回乡证
+"identity_ocr_result_id_hong_kong_return_hint_idNumber" = "e.g. H12345678";
+"identity_ocr_result_id_hong_kong_return_hint_englishName" = "Name in English";
+// 台胞证
+"identity_ocr_result_id_taiwan_hint_idNumber" = "e.g. 12345678";
+// 澳门身份证
+"identity_ocr_result_id_macao_hint_idNumber" = "e.g. 1234567(8)";
+"identity_ocr_result_id_macao_hint_surnameCN" = "Chinese surname";
+"identity_ocr_result_id_macao_givernamecn" = "Chinese given name";
+"identity_ocr_result_id_macao_surname" = "Family name";
+"identity_ocr_result_id_macao_givername" = "First name(s)";
+"identity_ocr_result_id_macao_hint_placeOfBirth" = "e.g. AS";
+// 全球护照
+"identity_ocr_result_id_passport_hint_countryCode" = "e.g. CHN";
+"identity_ocr_result_id_passport_hint_surname" = "First name";
+"identity_ocr_result_id_passport_hint_givenname" = "Last name";
+"identity_ocr_result_id_passport_hint_passportNo" = "please input passport No.";
+// 大陆身份证
+"identity_ocr_result_id_mainland_name" = "Name";
+"identity_ocr_result_id_mainland_ethnicity" = "Ethnicity";
+"identity_ocr_result_id_mainland_address" = "Address";
+"identity_ocr_result_id_mainland_idNumber" = "身份证号";
+//卡证文案
+"identity_ocr_result_id_name" = "Chinese Name";
+"identity_ocr_result_id_englishName" = "English Name";
+"identity_ocr_result_id_sex" = "Sex";
+"identity_ocr_result_id_birthDate" = "Date of Birth";
+"identity_ocr_result_id_idNumber" = "ID Number";
+"identity_ocr_result_id_nameCode" = "Name Code";
+"identity_ocr_result_id_currentIssueDate" = "Date of Issue";
+"identity_ocr_result_id_firstIssueDate" = "Date of First Issue";
+"identity_ocr_result_id_isPermanent" = "Permanent";
+"identity_ocr_result_id_symbols" = "Symbols";
+"identity_ocr_result_id_issueDate" = "Date of Issue";
+"identity_ocr_result_id_expiryDate" = "Date of Expiry";
+"identity_ocr_result_id_originOfIssue" = "Origin of Issue";
+"identity_ocr_result_id_passport_surname" = "Surname";
+"identity_ocr_result_id_passport_givenname" = "Given name";
+"identity_ocr_result_id_surnameCN" = "Surname CN";
+"identity_ocr_result_id_givennameCN" = "Given name CN";
+"identity_ocr_result_id_surname" = "Surname";
+"identity_ocr_result_id_givenname" = "Given name";
+"identity_ocr_result_id_passportNo" = "Passport Number";
+"identity_ocr_result_id_nationality" = "Nationality";
+"identity_ocr_result_id_countryCode" = "Country Code";
+"identity_ocr_result_id_placeOfIssue" = "Place of Issue";
+"identity_ocr_result_id_placeOfBirth" = "Place of Birth";
+//引导页
+"identity_guide_ocr_scan_title" = "Escanea tu ID";
+"identity_guide_ocr_photo_msg" = "Coloca tu ID sobre un fondo de color sólido y captura todo el documento. Asegúrate de que las cuatro esquinas estén visibles";
+"identity_guide_ocr_photo_title" = "Toma una foto de tu ID";
+"identity_guide_ocr_scan_msg" = "Coloca tu ID sobre un fondo de color sólido dentro de las guías. Con buena luz se capturará automáticamente";
+"identity_guide_ocr_nfc_title" = "Lectura NFC segura";
+"identity_guide_ocr_nfc_msg" = "Sostén la parte posterior de tu teléfono a 1-3 cm de tu ID para leer automáticamente el chip cifrado. Cuando aparezca la luz indicadora, mantenlo firme hasta que sientas una vibración";
+"identity_guide_start_btn" = "Empezar";
+"identity_guide_authorization" = "I agree to the CA terms and conditions and believe that my personal data will be used accurately for Alibaba Cloud partner VIDA.<User T&C>";
+
+//NFC
+"identity_nfc_guide_title" = "Lectura NFC segura";
+"identity_nfc_guide_content" = "Sostén la parte posterior de tu teléfono a 1-3 cm del documento para reconocer y verificar automáticamente los datos del chip cifrado";
+"identity_nfc_begin_read" = "Iniciar Verificación";
+"identity_nfc_read_fail" = "Verificación fallida. Por favor revisa la información del pasaporte";
+"identity_nfc_sure" = "De acuerdo";
+"identity_nfc_cancel" = "Cancelar";
+"identity_nfc_done" = "Hecho";
+"identity_nfc_card_no" = "Número de Documento";
+"identity_nfc_birthday" = "Fecha de Nacimiento";
+"identity_nfc_validity" = "Fecha de Vencimiento";
+"identity_nfc_card_no_placeholder" = "Introduce el número de documento";
+"identity_nfc_birthday_placeholder" = "Introduce la fecha de nacimiento";
+"identity_nfc_validity_placeholder" = "Introduce la fecha de vencimiento";
+"identity_nfc_read_title" = "Reconocimiento de Información";
+"identity_nfc_next_step" = "Siguiente";
+"identity_nfc_passport_placeholder" = "Por favor introduce la información del pasaporte";
+"identity_nfc_date_tips" = "Formato de fecha incorrecto. Por favor usa el formato dd MM yyyy";
+"identity_nfc_check_date_tips" = "La fecha de vencimiento debe ser posterior a la fecha de nacimiento";
+"identity_nfc_sure2" = "Confirmar";
+"identity_nfc_year" = "Año";
+"identity_nfc_month" = "Mes";
+"identity_nfc_day" = "Día";
+
