@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'CUniqAlibabaIDVerificationSDK'
-  s.version = '1.0.1'
+  s.version = '1.0.2'
   s.summary = 'Alibaba ID Verification binary SDK for CUnique UTS plugin'
   s.description = 'Vendored Alibaba ID Verification frameworks and resource bundles used by the CUnique UTS plugin.'
   s.homepage = 'https://github.com/shendsh2026/CUniqAlibabaIDVerificationSDK'
@@ -60,4 +60,12 @@ Pod::Spec.new do |s|
     'resolv',
     'sqlite3'
   ]
+
+  s.user_target_xcconfig = {
+    'OTHER_LDFLAGS' => '$(inherited) -Wl,-multiply_defined,suppress'
+  }
+
+  s.pod_target_xcconfig = {
+    'OTHER_LDFLAGS' => '$(inherited) -Wl,-multiply_defined,suppress'
+  }
 end
