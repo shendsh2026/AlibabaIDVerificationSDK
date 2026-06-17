@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'CUniqAlibabaIDVerificationSDK'
-  s.version = '1.0.0'
+  s.version = '1.0.1'
   s.summary = 'Alibaba ID Verification binary SDK for CUnique UTS plugin'
   s.description = 'Vendored Alibaba ID Verification frameworks and resource bundles used by the CUnique UTS plugin.'
   s.homepage = 'https://github.com/shendsh2026/CUniqAlibabaIDVerificationSDK'
@@ -22,8 +22,7 @@ Pod::Spec.new do |s|
     'Frameworks/AliyunOSSiOS.framework',
     'Frameworks/IDVMNN.framework',
     'Frameworks/OpenSSL.framework',
-    'Frameworks/faceguard.framework',
-    'Frameworks/AliyunIdentityNFC.framework/Frameworks/AliyunIdentityPlatform.framework'
+    'Frameworks/faceguard.framework'
   ]
 
   s.ios.resources = [
