@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
   s.version = '1.0.0'
   s.summary = 'Alibaba ID Verification binary SDK for CUnique UTS plugin'
   s.description = 'Vendored Alibaba ID Verification frameworks and resource bundles used by the CUnique UTS plugin.'
-  s.homepage = 'https://REPLACE_WITH_YOUR_GIT_REPO_URL'
+  s.homepage = 'https://github.com/shendsh2026/CUniqAlibabaIDVerificationSDK'
   s.license = { :type => 'Commercial' }
   s.author = { 'CUniq' => 'dev@example.com' }
 
   s.platform = :ios, '13.0'
   s.source = {
-    :git => 'https://REPLACE_WITH_YOUR_GIT_REPO_URL.git',
+    :git => 'https://github.com/shendsh2026/CUniqAlibabaIDVerificationSDK.git',
     :tag => s.version.to_s
   }
 
